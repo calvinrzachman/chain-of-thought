@@ -5,7 +5,7 @@ A collection of ideas and writings on topics in the crypto space
 - How Does Lightning Network Scale? (Global vs Local state/information)
   - Lightweight money substitutes/proxy (paper receipts with claim on gold vs. valid transaction which spend from multi-sig UTXO)
 
-
+## Understanding Bitcoin
 - hash function
 - hashed messages
 - chain of hashed messages (imposes an order to the messages)
