@@ -1,0 +1,33 @@
+## 
+
+
+
+The Value of Proof of Work
+
+In order to understand the value proposition of Proof of Work we must understand both what it is and what it brings to a network. 
+
+Goal: Our goal is to enable participants in a large geographically distributed network to reach the same conclusion about the state of the system. The state of our system is a ledger of transactions. To agree on the state of this system is to agree on who owns what (see above). In other words, we want the people/machines in our society/network to reach consensus. 
+Our messages are called blocks and they contain nothing more than lists of transactions.
+
+Notes on Audience:
+-	Assume that they have basic understanding/familiarity with hash functions
+
+Open up your favorite word processing software, highlight the entirety of this blog post, press control V followed by control P in the blank document.  Great, now how much did that cost you? 
+Proliferation of digital information is incredibly cheap (this is one reason the computers and the internet are so useful), but if your aim is to construct a digital system of global money this ease of duplication is disastrous. (Expand here … network enforced digital scarcity) Proof of Work
+
+Our goal is to enable participants in a network to arrive the same set of ordered messages. To agree on the set of messages is to agree on the state of the system. In the context of a transaction ledger, to agree on the state of the system is to agree on who owns what. If a global network can come to agree on who owns what, you have the basis for a decentralized global money. In an open (anyone can join) environment without trust. 
+
+How does it achieve this goal? Establish a rule that all network participants accept the chain of hashed messages with the greatest total proof of work (the highest energy chain). In some sense this states that the valid chain is always the highest cost chain 
+
+***Proof of Work imposes a cost to changing the system state and provides a way to efficiently (constant time – does not depend on the size of the cost proved) prove that cost has been paid. By requiring that nodes build on the chain of messages with the most proof of work (the highest energy chain) we ensure that nodes only build/work for the chain which represents the energy of the largest network.
+
+
+Proof of Work ties the digital back to the physical. It gives a block physical weight. It allows any verifier to be assured that some physical work has been performed. The production of this message has X amount of physical work associated with it. There is now a tangible cost to creating these messages where before there was not (digital messages are incredibly cheap to create). Why is this physical weight and the fact that there is a cost to produce these messages important? What does it enable us to do? 
+
+Proof of Work is about achieving consensus. This cost is the very thing which allows us to have everybody share the same view of the system state. To achieve consensus.
+
+Proof of work is efficiently verifiable. Every participant can check for himself that the c
+
+First of all it rate limits the creation of new messages. The rate of valid updates to the system state must be limited at the very least so as to allow time for information to propagate to the network participants. Without this the system would be a jumbled mess and there would be no hope of ever reaching global consensus as network nodes would all be looking at different information and have no hope at possibly reaching the same view. 
+
+Second, by connecting the digital back to the physical provides us with a way to secure the network. 
