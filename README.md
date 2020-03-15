@@ -1,6 +1,7 @@
 # chain-of-thought
 A collection of ideas and writings on topics in the crypto space
 
+This repository is intended to be a drafting space writing. Upcoming topics include:
 - Proof of Work
 - How Does Lightning Network Scale? (Global vs Local state/information)
   - Lightweight money substitutes/proxy (paper receipts with claim on gold vs. valid transaction which spend from multi-sig UTXO)
