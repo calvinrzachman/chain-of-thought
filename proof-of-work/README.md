@@ -40,9 +40,7 @@ Proof of Work ties the digital back to the physical. It gives a block physical w
 
 Proof of Work is about achieving consensus. This cost is the very thing which allows us to have everybody share the same view of the system state. To achieve consensus.
 
-Proof of work is efficiently verifiable. Every participant can check for himself that the c
-
 First of all it rate limits the creation of new messages. The rate of valid updates to the system state must be limited at the very least so as to allow time for information to propagate to the network participants. Without this the system would be a jumbled mess and there would be no hope of ever reaching global consensus as network nodes would all be looking at different information and have no hope at possibly reaching the same view. 
 
-Second, by connecting the digital back to the physical provides us with a way to secure the network. 
+Second, by connecting the digital back to the physical, proof of work provides us with a way to secure the network. 
 
