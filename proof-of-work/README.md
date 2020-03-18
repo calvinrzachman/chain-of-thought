@@ -29,7 +29,7 @@ Notes on Audience:
 Open up your favorite word processing software, highlight the entirety of this blog post, press control V followed by control P in the blank document.  Great, now how much did that cost you? 
 Proliferation of digital information is incredibly cheap (this is one reason the computers and the internet are so useful), but if your aim is to construct a digital system of global money this ease of duplication is disastrous. (Expand here … network enforced digital scarcity) Proof of Work
 
-Our goal is to enable participants in a network to arrive the same set of ordered messages. To agree on the set of messages is to agree on the state of the system. In the context of a transaction ledger, to agree on the state of the system is to agree on who owns what. If a global network can come to agree on who owns what, you have the basis for a decentralized global money. In an open (anyone can join) environment without trust. 
+Our goal is to enable participants in a network to arrive at the same set of ordered messages. To agree on the set of messages is to agree on the state of the system. In the context of a transaction ledger, to agree on the state of the system is to agree on who owns what. If a global network can come to agree on who owns what, you have the basis for a decentralized global money. In an open (anyone can join) environment without trust. 
 
 How does it achieve this goal? Establish a rule that all network participants accept the chain of hashed messages with the greatest total proof of work (the highest energy chain). In some sense this states that the valid chain is always the highest cost chain 
 
