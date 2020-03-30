@@ -3,7 +3,7 @@
 March 30th 2020 - Lightning Labs announces new specification 
 for private payments and authentication on the web, allowing users to pay for and consume resources digitally without the need for providing personal information like name, mailing address (email), and bank or credit card information.
 
-Consider the following: I wish to purchase a resource from you (an Apple let's say). I hand you $2 and you give me the apple. Transaction complete. I don't know anything about you and you don't know anything about me beyond that which we choose to voluntarily divulge in idle conversation while making the exchange.
+Consider the following: I wish to purchase a resource from you (an apple let's say). I hand you $2 and you give me the apple. Transaction complete. I don't know anything about you and you don't know anything about me beyond that which we choose to voluntarily divulge in idle conversation while making the exchange.
 
 As a merchant, the presence of the US dollar in your hand is all I need to know in order to exchange with you. This is not the case with exchanges in a digital environment. Consider now the case of a merchant selling access to a resource like an API with digital payment. The merchant must be sure that either the person accessing the API has paid, or that someone else (they need not know who) has paid. The only way this has been solved in the digital realm is by tying payment to identity. I need your name, login information, mailing address (email), and bank/credit card information in order to trust that I will be paid for offering you access to my service. 
 
