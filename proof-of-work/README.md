@@ -38,8 +38,6 @@ Open up your favorite word processing software, highlight the entirety of this b
 
 Our goal is to enable participants in a network to arrive at the same set of ordered messages. To agree on the set of messages is to agree on the state of the system. In the context of a transaction ledger, to agree on the state of the system is to agree on who owns what. If a global network can come to agree on who owns what, you have the basis for a decentralized global money, in an open (anyone can join) environment without trust. 
 
-How do we achieve this goal? Establish a rule that all network participants accept the chain of hashed messages with the greatest total Proof of Work (the highest energy chain). In some sense this states that the valid chain is always the highest cost chain.
-
 ```
 How do participants in the network agree on the state of the list?
 How do participants in the network arrive at the same view on the state of the list?
@@ -47,7 +45,13 @@ How do they come to consensus on the state of the list?
 Answer: Proof of Work
 ```
 
+How do we achieve this goal? 
+- Require that for any message to be valid that it carry with it a valid Proof of Work.
+- Establish a rule that all network participants accept the chain of hashed messages with the greatest total Proof of Work (the highest energy chain).
+
+
 { INSERT DEFINITION OF PROOF OF WORK - Consolidated from section above }
+
 
 ***Proof of Work imposes a cost to changing the system state and provides a way to efficiently (constant time – does not depend on the size of the cost proved) prove that cost has been paid. By requiring that nodes build on the chain of messages with the most Proof of Work (the highest energy chain) we ensure that nodes only build/work for the chain which represents the energy of the largest network.
 
