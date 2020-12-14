@@ -40,6 +40,13 @@ Our goal is to enable participants in a network to arrive at the same set of ord
 
 How do we achieve this goal? Establish a rule that all network participants accept the chain of hashed messages with the greatest total Proof of Work (the highest energy chain). In some sense this states that the valid chain is always the highest cost chain.
 
+```
+How do participants in the network agree on the state of the list?
+How do participants in the network arrive at the same view on the state of the list?
+How do they come to consensus on the state of the list? 
+Answer: Proof of Work
+```
+
 { INSERT DEFINITION OF PROOF OF WORK - Consolidated from section above }
 
 ***Proof of Work imposes a cost to changing the system state and provides a way to efficiently (constant time – does not depend on the size of the cost proved) prove that cost has been paid. By requiring that nodes build on the chain of messages with the most Proof of Work (the highest energy chain) we ensure that nodes only build/work for the chain which represents the energy of the largest network.
@@ -77,6 +84,23 @@ For the above explanation to make sense, the reader must understand that every B
 Another peculiar aspect of Bitcoin's use of Proof of Work is that proofs of work are said to be "found". I don't just prove my work. I find a proof of work. Moreover, that proof is testimant to my work and the work of others. This process is described above is referred to colloquialy as **Mining**.
 
 With the pyramid, I am showing you work that I am not capable of producing alone in the allotted time, so it is obvious that this is representative of the efforts of a larger group. With Bitcoin I am showing you a hash I produced but yet it is somehow indicative that a larger group of geographically distributed network participants completed more work than I myself am capable. How can this be? The random nature of finding proof of work satisfying the difficulty comes in here. My proof of work takes the form of a hash digest of my candidate state update (block) which satisfies a difficulty target. The difficulty target is set on a network wide basis by the Bitcoin software to an *expected* (probabalistic) 10 minutes of ***cumulative*** working power of the entire Bitcoin Network and adjusts upward or downward as the network gains or loses workers (hash power). If the Bitcoin Network is capable of producing 1 billion hashes per minute, then the expected work required will be 10 billion hashes. The Bitcoin software will set the odds of pulling the rabbit from the hat at 1 in 10 billion. I may "find" a proof of work of the desired difficulty on my first attempt, or my 10 billionth, or even my 100 billionth. There is no memory or progress in this operation. The success of any given attempt is exactly as probable as any other, namely 1 in 10 billion. All you can be sure of is that my presenting you with a proof of work of a given difficulty, say 10 billion hash operations, likely took the network as a whole 10 billion attempts cumulatively to produce. The same way you would expect to flip a heads 1 in 2 coin tosses, but this does not preclude you from flipping many tails in a row.  You would expect 2 friends each flipping 1 coin per second to take 10 seconds to flip 10 heads between them. The Bitcoin network is thousands of friends flipping quintillions of coins per second.
+
+
+The security of the Bitcoin network emerges from and relies upon 2 things: 
+-	Proof of Work (Consensus)
+-	Independent Verification. Network participants who live by the slogan “Don’t Trust. Verify”
+
+Explain each of the above …
+ 
+With “Don’t Trust. Verify” but without Proof of Work, we would have a network which ensures that every message it’s participants propagate meets network defined requirements (authorized, no inflation, no double spend), but no way to ensure that every participant reaches the same view of the system state (no consensus).
+
+With Proof of Work but without “Don’t Trust. Verify”, we would have a network in which participants are able to reach consensus on the state of the system but are not able to say anything meaningful about whether the state is valid (as they would be verifying work only and trusting that messages are valid).
+
+Put the above two concepts together and we can build a network which reaches consensus on the state of the system and that state will be valid as defined by a set of agreed upon rules.
+
+-	State is valid because it adheres to a set of rules (called Consensus Rules)
+-	One of those rules is that the state carries Proof of Work
+
 
 
 You cannot stop someone from writing numbers on a piece of paper. Likewise you cannot stop someone from storing a string of bits in their computer memory. You cannot stop someone from from sharing these numbers with others. I can not stop you from writing a Word Document outline for your next blog post. What is non-physical is also non-rivalrous. Information is not a physical. My possession of information does not preclude you from having the same information (unless I wont share the information with you :) ). You accept the numbers written on green pieces of paper with pictures of our Founding Fathers because recognize the Authority of the institution which wrote the number. Usually this Authority is backed by a legal or commonly accepted monopoly on force (that is permission to enforce law with threat of violence)
