@@ -96,9 +96,9 @@ The security of the Bitcoin network emerges from and relies upon 2 things:
 
 Explain each of the above …
  
-With “Don’t Trust. Verify” but without Proof of Work, we would have a network which ensures that every message it’s participants propagate meets network defined requirements (authorized, no inflation, no double spend), but no way to ensure that every participant reaches the same view of the system state (no consensus).
+- With “Don’t Trust. Verify” but without Proof of Work, we would have a network which ensures that every message it’s participants propagate meets network defined requirements (authorized, no inflation, no double spend), but no way to ensure that every participant reaches the same view of the system state (no consensus).
 
-With Proof of Work but without “Don’t Trust. Verify”, we would have a network in which participants are able to reach consensus on the state of the system but are not able to say anything meaningful about whether the state is valid (as they would be verifying work only and trusting that messages are valid).
+- With Proof of Work but without “Don’t Trust. Verify”, we would have a network in which participants are able to reach consensus on the state of the system but are not able to say anything meaningful about whether the state is valid (as they would be verifying work only and trusting that messages are valid).
 
 Put the above two concepts together and we can build a network which reaches consensus on the state of the system and that state will be valid as defined by a set of agreed upon rules.
 
