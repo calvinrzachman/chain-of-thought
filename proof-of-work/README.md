@@ -101,11 +101,11 @@ Explain each of the above …
 - With Proof of Work but without “Don’t Trust. Verify”, we would have a network in which participants are able to reach consensus on the state of the system but are not able to say anything meaningful about whether the state is valid (as they would be verifying work only and trusting that messages are valid).
 
 Put the above two concepts together and we can build a network which reaches consensus on the state of the system and that state will be valid as defined by a set of agreed upon rules.
-
+ 
 -	State is valid because it adheres to a set of rules (called Consensus Rules)
 -	One of those rules is that the state carries Proof of Work
 
-
+You wish to define a set of rules that participants are to abide by. You can check that these rules are being followed, and so will everyone else.
 
 You cannot stop someone from writing numbers on a piece of paper. Likewise you cannot stop someone from storing a string of bits in their computer memory. You cannot stop someone from from sharing these numbers with others. I can not stop you from writing a Word Document outline for your next blog post. What is non-physical is also non-rivalrous. Information is not a physical. My possession of information does not preclude you from having the same information (unless I wont share the information with you :) ). You accept the numbers written on green pieces of paper with pictures of our Founding Fathers because recognize the Authority of the institution which wrote the number. Usually this Authority is backed by a legal or commonly accepted monopoly on force (that is permission to enforce law with threat of violence)
 
