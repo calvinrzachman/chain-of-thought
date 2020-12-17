@@ -2,9 +2,16 @@
 
 ## Prerequisites
 
-- Hash Functions
-- Hashed Messages
-- Chain of Hashed Messages
+1. Hash Functions
+2. Hashed Messages
+3. Chain of Hashed Messages - imposes an ordering to the messages
+4. Chain of hashed messages with Proof of Work - ties digital to physical. Brings finality/weight to system state
+   1. Think about one person building a list with Proof of Work in isolation and then presenting that list to others. Does the PoW enable anything useful in such a scenario? 
+   1. Think about a network of people working in communication to build a list (of which they all retain an individual copy) who choose to accept only list entries with PoW. Does PoW enable anything useful in this scenario?
+   1. In both cases the PoW demonstrates that work has been performed. In the second case it also can be used to ensure that the network of people come to agreement on the list state. In both cases it would lead to an ossifying or preserving effect on older (not by time but by work) entries of the list. Entries "buried under more work". The only way to modify entries, once buried, is to dig them up and rebury them deeper (VERY HARD - unless you have more shovels than the rest of the people who keep piling on more work.
+5. Build a Network which maintains the Hashed Chain of Messages
+6. Application to Money: What should the messages be? Transaction lists! (Blocks) -> Ordered list of transactions (Ordered chain of blocks - HOLY COW. Did he just explain blockchain without using the word blockchain?)
+
 
 Require that for any message to be valid that it carry with it a valid Proof of Work. What is Proof of Work? It’s exactly what it sounds like. It is a proof that a certain amount of physical work has been done. A freshly mowed lawn or Thanksgiving table is proof that some amount of work has been performed. My message, “Hey Dad, I mowed the lawn today,” is easily verified by him looking out the window and seeing a pristine lawn. We can however construct another proof of work better suited towards building a digital money by exploiting the random nature of the cryptographic hash function mentioned previously.  
 
@@ -78,6 +85,9 @@ By constructing a system of open pseudonymous distributed with Proof of Work, Bi
 
 Proof of Energy Expenditure no doubt opens the consensus mechanism up to critique by those concerned with its effect on the Climate. First, it should be noted that effective use of energy is the only thing separating you from a caveman sitting in his cold dark cave. The use of energy is not inherently bad. Nevertheless, it is reasonable to ask questions about what sources of energy are used and for what purpose. After reading this article you hopefully better understand the purpose. All that's left is to understand the source and to make your own judgement as to the worth of the consumption of this source for this purpose. Link to Nic Carter, Fidelity Bitcoin Mining Report w/ Energy Composition, Bitcoin finding "stranded energy", etc.
 
+\[ Section on State Ossification/Preservation ]
+
+Builds an energy wall securing the historic state
 
 ## More Information
 
