@@ -117,6 +117,13 @@ Put the above two concepts together and we can build a network which reaches con
 
 If one of those "consensus" or system rules specifies that there be no more Bitcoin created than say 21 million, then our state that we come to consensus on will contain no more than 21 million Bitcoin. (Link code sections which handle block subsidy and no inflation)
 
+[Consensus Code](https://github.com/bitcoin/bitcoin/tree/master/src/consensus)
+- [Proof of Work Verification](https://github.com/bitcoin/bitcoin/blob/0.20/src/validation.cpp#L3273)
+- [No Inflation](https://github.com/bitcoin/bitcoin/blob/0.20/src/consensus/tx_verify.cpp#L187)
+- [Block Subsidy Definition](https://github.com/bitcoin/bitcoin/blob/0.20/src/validation.cpp#L1220)
+- [Subsidy Enforcement](https://github.com/bitcoin/bitcoin/blob/0.20/src/validation.cpp#L2159)
+- [Difficulty Adjustment]()
+
 ### On Running a Bitcoin Node and Participating in a New World Monetary System
 When you start running your own Bitcoin node you aren’t some gullible financial system participant blindly trusting the authority of a centralized financial coordinator to maintain your purchasing power. You are instead a ruthless verifier, scrutinizing the validity of all transactions in agonizing detail. When you run the Bitcoin software you instantly become a member of the best auditing firm in the world. When you arrive at the current state, you can be sure that it is valid as you have ensured so yourself. When you run the Bitcoin software ...
 
