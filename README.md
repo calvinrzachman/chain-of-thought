@@ -24,15 +24,17 @@ What makes it different from scaling of old?
 
 
 ## Understanding Bitcoin
-1. hash function
-2. data serialization and hashed messages
-3. chain of hashed messages (imposes an order to the messages)
-4. chain of hashed messages with proof of work (ties digital to physical. Brings finality/weight to system state)
-
-    Require that for any message to be valid that it carry with it a valid Proof of Work. What is Proof of Work? It’s exactly  what it sounds like. It is a proof that a certain amount of physical work has been done. A freshly mowed lawn or Thanksgiving table is proof that some amount of work has been performed. My message “Hey dad I mowed the lawn today” is easily verified by him looking out the window and seeing a pristine lawn. We can however construct another proof of work better suited towards building a digital money by exploiting the random nature of the cryptographic hash function mentioned previously.
+1. Hash Functions
+2. Hashed Messages
+3. Chain of Hashed Messages - imposes an ordering to the messages
+4. Chain of Hashed Messages with Proof of Work
+   1. Think about one person building a list with Proof of Work in isolation and then presenting that list to others. Does the PoW enable anything useful in such a scenario? 
+   1. Think about a network of people working in communication to build a list (of which they all retain an individual copy) who choose to accept only list entries with PoW. Does PoW enable anything useful in this scenario?
+   1. In both cases the PoW demonstrates that work has been performed. In the second case it also can be used to ensure that the network of people come to agreement on the list state. In both cases it brings finality/weight to state of the list. In both cases it would lead to an ossifying or preserving effect on older (not by time but by work) entries of the list. Entries "buried under more work". The only way to modify entries, once buried, is to dig them up and rebury them deeper (VERY HARD - unless you have more shovels than the rest of the people who keep piling on more work).
+   
+       Require that for any message to be valid that it carry with it a valid Proof of Work. What is Proof of Work? It’s exactly  what it sounds like. It is a proof that a certain amount of physical work has been done. A freshly mowed lawn or Thanksgiving table is proof that some amount of work has been performed. My message “Hey dad I mowed the lawn today” is easily verified by him looking out the window and seeing a pristine lawn. We can however construct another proof of work better suited towards building a digital money by exploiting the random nature of the cryptographic hash function mentioned previously.
     
     It is better suited since it lets us pass on the work to the computers. In place of human time, we use compute time. But because computers require energy to function, compute time is still tied to the physical world.
-
-
-5. build a Network which maintains the hashed chain of messages
-6. application to currency: What should the messages be? Transactions lists! (Blocks) -> Ordered list of transactions (Ordered chain of blocks)
+    
+5. Build a Network which maintains the Chain of Hashed Messages (the second case from above)
+6. Application to Money: What should the messages be? Transaction lists! (Blocks) -> Ordered list of transactions (Ordered chain of blocks - HOLY COW. Did he just explain blockchain without using the word blockchain?)
