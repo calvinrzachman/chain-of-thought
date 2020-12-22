@@ -145,11 +145,12 @@ How can you trust the messages you are being sent? With. Proof of Work generates
 
 ## Additional Items 
 
-   A short story: The traveler happened upon a group of people. These people are working very intensely. The traveler observed as they piled dirt shovelful by shovelful into a a glorious mound. A mound larger than any he had ever seen before. The people worked day and night, rain or shine. Not once did they break - Not even to enjoy one of life's many pleasures. The traveler had wandered many a place near and far, but he had never seen anything like this. He simply could not contain the urge to figure out just what it was which compelled the people to work so hard. "What are you burying?", you ask. "We're burying our most prized posessions". "We're burying our lives work". The lives' work of an entire group of people buried in this hole? Crazy! 
-   The mound grew higher just when you thought surely the mound, it grew higher still
+   A short story: The traveler happened upon a group of people. These people are working very intensely. The traveler observed as they piled dirt shovelful by shovelful into a a glorious mound. A mound larger than any he had ever seen before. The people worked day and night, rain or shine. Not once did they break - Not even to enjoy one of life's many pleasures. The traveler had wandered many a place near and far, but he had never seen anything like this. He simply could not contain the urge to figure out just what it was which compelled the people to work so hard. "What are you burying?", you ask. "We're burying our most prized posessions". "We're burying our life's work". The lives' work of an entire group of people buried in this hole? Crazy! 
+   The mound grew higher just when you thought surely the mound, it grew higher still. A magnificent testiment to the work of these men
    Another traveler. The traveler was cunning and quick. He figured . No matter how hard the traveler and his team tried, they simply could not undo
    The cost to not be on the winning team? Death.
    The use of computers prevent the securing of the network from having to be any ones life work. Human time is replaced with Compute time, but both require energy.
+   A third, heat-exhausted, near delirious traveler happened by the workers. As he drew closer he noticed they all had the letter B emblazoned in orange on their chests. And they weren't people at all, but computers? They weren't building a large mound, but rather a list of transactions which outlined the ownership and transfer of ownership of some item amongst them. A most strange hallucination, he thought.
    
 
 A network that is global, open, neutral, censorship resistant. A monetary system that does not recognize. The most liquid scarcity is digital scarcity.
