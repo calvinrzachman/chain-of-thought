@@ -137,7 +137,7 @@ You join a network of those similarly dedicated to building a network for commun
 
 Working to maintain a historical record of all transactions. It is from such a record/ledger which we can build a monetary system which transcends jurisdiction and, as a result, is not possibly beholden to the interest of any one individual, corporation, or even nation.
 
-Attempts to create money out of nothing are not recognized. Attempts to move money without proper authorization. Not recognized. This is ***Network Enforced Digital Scarcity***. This is, for the first time in modern history, a separation of money and state.
+Attempts to create money out of nothing are not recognized. Attempts to move money without proper authorization? Not recognized. This is ***Network Enforced Digital Scarcity***. This is, for the first time in modern history, a separation of money and state.
 
 
 How can you trust the messages you are being sent? With. Proof of Work generates emergent authority. Authority in the absence of authority.
