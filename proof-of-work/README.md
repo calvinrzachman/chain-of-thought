@@ -87,6 +87,7 @@ Proof of Energy Expenditure no doubt opens the consensus mechanism up to critiqu
 - How does our current money work?
 - What are the consequences of such a system of money?
 - What other systems or institutions , methods of human organization exist to support such a system (legal, military)?
+
 One cannot really say anything meaninful about Bitcoin's utilization of energy without attempting to grapple with the questions posed above. To do so would be little more than disingenuous emotional postulating. After having explored these, one is better equipped to understand the energy source and to make his/her own judgement as to the worth of the consumption of this source for this purpose. Link to Nic Carter, Fidelity Bitcoin Mining Report w/ Energy Composition, Bitcoin finding "stranded energy", etc.
 
 \[ Section on State Ossification/Preservation ]
