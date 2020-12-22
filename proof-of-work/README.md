@@ -153,6 +153,11 @@ How can you trust the messages you are being sent? With. Proof of Work generates
    A third, heat-exhausted, near delirious traveler happened by the workers. As he drew closer he noticed they all had the letter B emblazoned in orange on their chests. And they weren't people at all, but computers? They weren't building a large mound, but rather a list of transactions which outlined the ownership and transfer of ownership of some item amongst them. A most strange hallucination, he thought.
    
 
+You have to create digital scarcity. You have to create digital scarcity which cannot be infringed. This requires decentralization of record keeping.
+Decentralization of record keeping is achieved through constructing the system of record keeping to be as lightweight and simple as possible, by constraining the amount of records to be kept, providing a small payment to the record keepers, and by building a system in which anyone can become a record keeper without asking permission. This obliterates premature Big-Blockers. Transaction fees emerge naturally as a result of the constraints on the amount of record keeping. 
+If we had the computing power and bandwidth to process and rapidly share all of the world's transactions in a decentralized manner, transaction fees would be near zero, as there would be no competition for scarce ledger space, thus no need to differentiate your transaction from the rest by way of a fee. The problem, of course, arises from the fact that our network capabilities simply do not support the rapid communication of that much information (yet). The more information you ask participants to process, the fewer will be able to complete the task at hand. This is centralization of validation in the hands of a smaller and smaller few. To do this is to destroy digital scarcity. To do this is to create yet another system of Centrally "enforced" digital scarcity. Centrally "enforced" digital scarcity is easily infringed. Network Enforced Digital Scarcity.
+
+
 A network that is global, open, neutral, censorship resistant. A monetary system that does not recognize. The most liquid scarcity is digital scarcity.
 As a result of being geographically distributed we have… the participants do not reside in one legal jurisdiction and. Transcends jurisdiction
 
