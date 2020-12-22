@@ -8,7 +8,7 @@
 4. Chain of Hashed Messages with Proof of Work
    1. Think about one person building a list with Proof of Work in isolation and then presenting that list to others. Does the PoW enable anything useful in such a scenario? 
    1. Think about a network of people working in communication to build a list (of which they all retain an individual copy) who choose to accept only list entries with PoW. Does PoW enable anything useful in this scenario?
-   1. In both cases the PoW demonstrates that work has been performed. In the second case it also can be used to ensure that the network of people come to agreement on the list state. In both cases it brings finality/weight to state of the list. In both cases it would lead to an ossifying or preserving effect on older (not by time but by work) entries of the list. Entries "buried under more work". The only way to modify entries, once buried, is to dig them up and rebury them deeper (VERY HARD - unless you have more shovels than the rest of the people who keep piling on more work).
+   1. In both cases the PoW demonstrates that work has been performed - that energy has been expended. In the second case, this verifiable work performed/energy expended/cost paid can be used to ensure that the network of people come to agreement on the list state. In the second case, this verifiable work performed/energy expended/cost paid brings finality/weight to state of the list. This is an ossifying or preserving effect on older (not by time but by work) entries of the list as entries are "buried under more work". The only way to modify entries, once buried, is to dig them up and rebury them deeper (VERY HARD - unless you have more shovels than the rest of the people who keep piling on more work). In the second case it also can be used to ensure that the network of people come to agreement on the list state.   
 5. Build a Network which maintains the Chain of Hashed Messages (the second case from above)
 6. Application to Money: What should the messages be? Transaction lists! (Blocks) -> Ordered list of transactions (Ordered chain of blocks - HOLY COW. Did he just explain blockchain without using the word blockchain?)
 
@@ -145,6 +145,13 @@ How can you trust the messages you are being sent? With. Proof of Work generates
 
 ## Additional Items 
 
+   A short story: The traveler happened upon a group of people. These people are working very intensely. The traveler observed as they piled dirt shovelful by shovelful into a a glorious mound. A mound larger than any he had ever seen before. The people worked day and night, rain or shine. Not once did they break - Not even to enjoy one of life's many pleasures. The traveler had wandered many a place near and far, but he had never seen anything like this. He simply could not contain the urge to figure out just what it was which compelled the people to work so hard. "What are you burying?", you ask. "We're burying our most prized posessions". "We're burying our lives work". The lives' work of an entire group of people buried in this hole? Crazy! 
+   The mound grew higher just when you thought surely the mound, it grew higher still
+   Another traveler. The traveler was cunning and quick. He figured . No matter how hard the traveler and his team tried, they simply could not undo
+   The cost to not be on the winning team? Death.
+   The use of computers prevent the securing of the network from having to be any ones life work. Human time is replaced with Compute time, but both require energy.
+   
+
 A network that is global, open, neutral, censorship resistant. A monetary system that does not recognize. The most liquid scarcity is digital scarcity.
 As a result of being geographically distributed we have… the participants do not reside in one legal jurisdiction and. Transcends jurisdiction
 
@@ -162,13 +169,12 @@ Proof of Work
 - What
 - Why
   - enables consensus
-  - state preservation/ossification 
-  how do you know you dont need to start over? You don't need to go back and learn how to add because you remember! How do we know the work we did yesterday remains
+  - state preservation/ossification - secure information. secure the past. 
+  how do you know you dont need to start over? You don't need to go back and learn how to add because you remember! How do we know the work we did yesterday remains?
 - How
   - rate limits acceptance of new information
-  - ties digital to physical. What does this actually mean at its core?
+  - ties digital to physical. What does this actually mean at its core? prevents costless alteration? In a world where we want to do things as cheaply as possible why would we select such system of explicit cost. The answer is because the enemy you know is better than the enemy you dont. Our current system of money as enormous cost, a great deal of which is implicit/obfuscated. We must have cost to have security. We are looking to make something digital hard to acquire. You cannot copy Bitcoin. There is . The value is a consistent and verifiable ledger. You can copy the list of numbers and how they change over time transactions. Why does any one list of transactions have meaning? Because we know its the list we started working on 10 years ago, we know nobody has changed any part of the list (our work was done and our work remains), we know new additions to the list follow the laws agreed to by everyone (work continues)
   - metric of differentiation. PoW is the Authority.
-  - secure the information
 - Who
   - list builders for list validators
 - When
