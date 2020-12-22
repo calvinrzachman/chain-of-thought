@@ -59,21 +59,6 @@ How do we achieve this goal?
 
 { INSERT DEFINITION OF PROOF OF WORK - Consolidated from section above }
 
-Proof of Work
-- What
-- Why
-  - enables consensus
-  - state preservation/ossification - brings finality to 
-  how do you know you dont need to start over? You don't need to go back and learn how to add because you remember! How do we know the work we did yesterday remains
-- How
-  - rate limits acceptance of new information
-  - ties digital to physical. What does this actually mean at its core?
-  - 
-- Who
-  - list builders for list validators
-- When
- - 24/7
-
 
 ***Proof of Work imposes a cost to changing the system state and provides a way to efficiently (constant time – does not depend on the size of the cost proved) prove that cost has been paid. By requiring that nodes build on the chain of messages with the most Proof of Work (the highest energy chain) we ensure that nodes only build/work for the chain which represents the energy of the largest network.
 
@@ -94,7 +79,6 @@ What does it mean for a system state to be "correct"? What is to make one state 
    >*Valid states must carry Proof of Work. The most valid states carry Proof of the **most** Work*.
 
 This requirement enables consensus. Given two competing views of the system state, a network participant can always select the system state endorsed by greater work. Dishonest participants are unable to present valid alternative states as they cannot forge energy (Szabo's "unforgeable costliness"). Perhaps ***Proof of Energy Expenditure*** would better describe the mechanism here. So long as one party does not control a majority of the energy in the system, they cannot convince network participants to accept any system state other than the system state constructed by the most energetic cohort of network participants. They cannot forge Bitcoin. They cannot ["double spend"](https://en.wikipedia.org/wiki/Double-spending) Bitcoin. Proof of Work turns the dishonest network views/false system states of would be usurpers into harmless individual delusions. To dishonest Bitcoin Network participants: For full credit (state acceptance), prove your work!
-
 
 By constructing a system of open pseudonymous distributed with Proof of Work, Bitcoin achieves ***decentralized authority***. Allowing you to have faith that what you send and receive is valid without placing trust in any institution.
 
@@ -156,7 +140,7 @@ Attempts to create money out of nothing are not recognized. Attempts to move mon
 
 
 How can you trust the messages you are being sent? With. Proof of Work generates emergent authority. Authority in the absence of authority.
-
+ 
 
 ## Additional Items 
 
@@ -172,3 +156,19 @@ You cannot stop someone from writing numbers on a piece of paper. Likewise you c
 
 
 Why do people choose to provide energy to securing this system? They provide energy because they are paid to do so. Bitcoin supply is created. As the price of Bitcoin rises, so does the mining reward. This drives more competition to provide energy to secure the system. The more secure system could drive additional adoption. Bitcoin pays for its own security. a positive feedback loop which incentivizes its own protection. Bitcoin is "issued" NOT from a Central Mint. It is more proper to say, that supply inflation/the issuance of new Bitcoin is only recognized in return for providing energy to the system. If Amazon provides the same product at 10% lower cost than you, they will likely win all or at least an overwhelming majority of exchanges. Bitcoin mining dynamics are not winner take all. If you have a smal
+
+Proof of Work
+- What
+- Why
+  - enables consensus
+  - state preservation/ossification 
+  how do you know you dont need to start over? You don't need to go back and learn how to add because you remember! How do we know the work we did yesterday remains
+- How
+  - rate limits acceptance of new information
+  - ties digital to physical. What does this actually mean at its core?
+  - metric of differentiation. PoW is the Authority.
+  - secure the information
+- Who
+  - list builders for list validators
+- When
+ - 24/7
