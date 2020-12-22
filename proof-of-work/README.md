@@ -173,9 +173,13 @@ Proof of Work
   how do you know you dont need to start over? You don't need to go back and learn how to add because you remember! How do we know the work we did yesterday remains?
 - How
   - rate limits acceptance of new information
-  - ties digital to physical. What does this actually mean at its core? prevents costless alteration? In a world where we want to do things as cheaply as possible why would we select such system of explicit cost. The answer is because the enemy you know is better than the enemy you dont. Our current system of money as enormous cost, a great deal of which is implicit/obfuscated. We must have cost to have security. We are looking to make something digital hard to acquire. You cannot copy Bitcoin. There is . The value is a consistent and verifiable ledger. You can copy the list of numbers and how they change over time transactions. Why does any one list of transactions have meaning? Because we know its the list we started working on 10 years ago, we know nobody has changed any part of the list (our work was done and our work remains), we know new additions to the list follow the laws agreed to by everyone (work continues)
+  - ties digital to physical. What does this actually mean at its core? prevents costless alteration? In a world where we want to do things as cheaply as possible why would we select such system of explicit cost. The answer is because the enemy you know is better than the enemy you dont. Our current system of money as enormous cost, a great deal of which is implicit/obfuscated. We must have cost to have security. We are looking to make something digital hard to acquire. You cannot copy Bitcoin. The value is in a consistent and verifiable ledger. You can copy the list of numbers and how they change over time transactions. Why does any one list of transactions have meaning? Because we know its the list we started working on 10 years ago, we know nobody has changed any part of the list (our work was done and our work remains), we know new additions to the list follow the laws agreed to by everyone (work continues).
   - metric of differentiation. PoW is the Authority.
 - Who
   - list builders for list validators
 - When
  - 24/7
+
+How do you quantify demand? How to you quantify human desire? The market price. Historically the market price of a good has been a function of both the supply and demand for that good. With Bitcoin the supply is known to market particpants and is unchanging. Do movements in its price reflect only changes in demand?
+Value created in the production of commodities channels additional capital into the production of that commodity. 
+Value created/profit received in the creation of Bitcoin channels capital into production of additional network security, NOT additional Bitcoin. Such is the beauty of the difficulty adjustment.
