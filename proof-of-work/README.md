@@ -102,14 +102,18 @@ For the above explanation to make sense, the reader must understand that... Ever
 
 With the pyramid, I am showing you work that I am not capable of producing alone in the allotted time, so it is obvious that this is representative of the efforts of a larger group. With Bitcoin I am showing you a hash I produced but yet it is somehow indicative that a larger group of geographically distributed network participants completed more work than I myself am capable. How can this be? The random nature of finding proof of work satisfying the difficulty comes in here. My proof of work takes the form of finding a hash digest of my candidate state update (block) which satisfies a difficulty target. The difficulty target is set on a network wide basis by the Bitcoin software to an *expected* (probabalistic) 10 minutes of ***cumulative*** working power of the entire Bitcoin Network and adjusts upward or downward as the network gains or loses workers in raw number or efficiency (hash power). If the Bitcoin Network is capable of producing 1 billion hashes per minute, then the expected work required will be 10 billion hashes. The Bitcoin software will set the odds of pulling the rabbit from the hat (the network difficulty) at 1 in 10 billion. I may "find" a proof of work of the desired difficulty on my first attempt, or my 10 billionth, or even my 100 billionth. There is no memory or progress in this operation. The success of any given attempt is exactly as probable as any other, namely 1 in 10 billion. All you can be sure of is that my presenting you with a proof of work of a given difficulty, say 10 billion hash operations, likely took the network as a whole 10 billion attempts cumulatively to produce. The same way you would expect 2 friends each flipping 1 coin per second to take 10 seconds to flip 10 heads between them. The Bitcoin network is thousands of friends flipping quintillions of coins per second.
 
-Another peculiar aspect of Bitcoin's use of Proof of Work is that proofs are said to be "found". I don't just prove my work. I find a proof of work. Moreover, that proof is testament to my work and the work of others. This process is described above and is referred to as **Mining**.
 
 ### The Purpose of Proof of Work \[ in Bitcoin]
+
+Another peculiar aspect of Bitcoin's use of Proof of Work is that proofs are said to be "found". I don't just prove my work. I find a proof of work. Moreover, that proof is testament to my work and the work of others. This process is described above and is referred to as **Mining**.
+
+
 The security of the Bitcoin network emerges from and relies upon 2 things: 
 -	Proof of Work (Consensus)
 -	Independent Verification. Network participants who live by the slogan “Don’t Trust. Verify”
 
 Explain each of the above …
+Proof of Work is not enough to secure the system. It is Proof of Work in combination with a set of network nodes, all of which perform auditing/state validation functions.
  
 - With “Don’t Trust. Verify” but without Proof of Work, we would have a network which ensures that every message it’s participants propagate meets network defined requirements (authorized, no inflation, no double spend), but no way to ensure that every participant reaches the same view of the system state (no consensus).
 
@@ -152,10 +156,13 @@ How can you trust the messages you are being sent? With. Proof of Work generates
    The use of computers prevent the securing of the network from having to be any ones life work. Human time is replaced with Compute time, but both require energy.
    A third, heat-exhausted, near delirious traveler happened by the workers. As he drew closer he noticed they all had the letter B emblazoned in orange on their chests. And they weren't people at all, but computers? They weren't building a large mound, but rather a list of transactions which outlined the ownership and transfer of ownership of some item amongst them. A most strange hallucination, he thought.
    
-
+   
 You have to create digital scarcity. You have to create digital scarcity which cannot be infringed. This requires decentralization of record keeping.
-Decentralization of record keeping is achieved through constructing the system of record keeping to be as lightweight and simple as possible, by constraining the amount of records to be kept, providing a small payment to the record keepers, and by building a system in which anyone can become a record keeper without asking permission. This obliterates premature Big-Blockers. Transaction fees emerge naturally as a result of the constraints on the amount of record keeping. 
-If we had the computing power and bandwidth to process and rapidly share all of the world's transactions in a decentralized manner, transaction fees would be near zero, as there would be no competition for scarce ledger space, thus no need to differentiate your transaction from the rest by way of a fee. The problem, of course, arises from the fact that our network capabilities simply do not support the rapid communication of that much information (yet). The more information you ask participants to process, the fewer will be able to complete the task at hand. This is centralization of validation in the hands of a smaller and smaller few. To do this is to destroy digital scarcity. To do this is to create yet another system of Centrally "enforced" digital scarcity. Centrally "enforced" digital scarcity is easily infringed. Network Enforced Digital Scarcity.
+Decentralization of record keeping is achieved through constructing the system of record keeping to be as lightweight and simple as possible, by constraining the amount of records to be kept, by providing a small payment to the record keepers, and by building a system in which anyone can become a record keeper without asking permission. This obliterates premature Big-Blockers. Transaction fees emerge naturally as a result of the constraints on the amount of record keeping. 
+The first item above, the constraining of information, is quite clearly at odds with expanding transactional throughput. If we had the computing power and bandwidth to process and rapidly share all of the world's transactions in a decentralized manner, transaction fees would be near zero, as there would be no competition for scarce ledger space, thus no need to differentiate your transaction from the rest by way of a fee. In such a world, we really would have achieved all the benefits of decentralized record keeping (true digital scarcity) without having to sacrifice our ability to process the number of records we desire. The problem, of course, arises from the fact that our network capabilities simply do not support the rapid communication of that much information (yet). The more information you ask participants to process, the fewer will be able to complete the task at hand. This is centralization of processing and validation in the hands of a smaller and smaller few. To do this is to destroy digital scarcity. To do this is to create yet another system of Centrally "enforced" digital scarcity. Centrally "enforced" digital scarcity is easily infringed. Network Enforced Digital Scarcity.
+
+
+A system in which anyone can join without asking permission implies that there is NO authority with whom to seek permission. There is no single entity capable of controlling the system. There is no authorized set of users. ANYONE can use Bitcoin. Bitcoin eliminates sole sources of truth by design, instead achieving decentralized emergent authority through Proof of Work. 
 
 
 A network that is global, open, neutral, censorship resistant. A monetary system that does not recognize. The most liquid scarcity is digital scarcity.
@@ -189,3 +196,12 @@ Proof of Work
 How do you quantify demand? How to you quantify human desire? The market price. Historically the market price of a good has been a function of both the supply and demand for that good. With Bitcoin the supply is known to market particpants and is unchanging. Do movements in its price reflect only changes in demand?
 Value created in the production of commodities channels additional capital into the production of that commodity. 
 Value created/profit received in the creation of Bitcoin channels capital into production of additional network security, NOT additional Bitcoin. Such is the beauty of the difficulty adjustment.
+
+Our current monetary system is moving ever closer towards (and is essentially already) a clown game of exchanging digital trading cards under the control of a trusted third party.
+
+We can already trade things on the Internet, electronic trading cards for example. Why do markets develop for electronic trading cards/other digital items (Rocket League, CS Go, Hearthstone, etc.)? One plausible explanation is that people want the item and the item is scarce. Should such items be used as money? No, because of how this scarcity is enforced. Digital items can be scarce, but they are scarce only so long as theri issuer (Riot Games, Activation, etc.) chooses to keep them that way. To give the ability To give the ability to control the scarcity of a candidate money to one trusted 3rd party is to grant that third party immense power.
+
+These differ in the way the scarcity is enforced. Bitcoin marks the first time in history that digital scarcity can be enforced without the trusted third party. It takes trust in a central provider and replaces it with trust in software run by a network of computers all across the world. As a result the system does not place undo trust in any one person or group. Even
+
+Bitcoin = Network Enforced Digital Scarcity
+Digital Trading Cards/Character Skins/U.S. Dollar = Centrally Enforced Digital Scarcity
