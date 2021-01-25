@@ -80,7 +80,7 @@ What does it mean for a system state to be "correct"? What is to make one state 
 
 This requirement enables consensus. Given two competing views of the system state, a network participant can always select the system state endorsed by greater work. Dishonest participants are unable to present valid alternative states as they cannot forge energy (Szabo's "unforgeable costliness"). Perhaps ***Proof of Energy Expenditure*** would better describe the mechanism here. So long as one party does not control a majority of the energy in the system, they cannot convince network participants to accept any system state other than the system state constructed by the most energetic cohort of network participants. They cannot forge Bitcoin. They cannot ["double spend"](https://en.wikipedia.org/wiki/Double-spending) Bitcoin. Proof of Work turns the dishonest network views/false system states of would be usurpers into harmless individual delusions. To dishonest Bitcoin Network participants: For full credit (state acceptance), prove your work!
 
-By constructing a system of open pseudonymous distributed with Proof of Work, Bitcoin achieves ***decentralized authority***. Allowing you to have faith that what you send and receive is valid without placing trust in any institution.
+By constructing a system of open pseudonymous distributed with Proof of Work, Bitcoin achieves ***decentralized emergent authority***. Allowing you to have faith that what you send and receive is valid without placing trust in any institution.
 
 Proof of Energy Expenditure no doubt opens the consensus mechanism up to critique by those concerned with its effect on the climate. First, it should be noted that effective use of energy is the only thing separating you from a caveman sitting in his cold dark cave. It is the only reason our society is left standing amongst the countless societes and methods of human organization which came before us. The use of energy is not inherently evil. Nevertheless, it is reasonable to ask questions about what sources of energy are used and for what purpose. After reading this article you hopefully better understand the purpose... how and why energy is utilized in Bitcoin? in that PoW enables groups of people to build consistent lists in parallel. Take the journey further down the rabbit hole by digging into questions like:
 - What is money?
@@ -105,8 +105,7 @@ With the pyramid, I am showing you work that I am not capable of producing alone
 
 ### The Purpose of Proof of Work \[ in Bitcoin]
 
-Another peculiar aspect of Bitcoin's use of Proof of Work is that proofs are said to be "found". I don't just prove my work. I find a proof of work. Moreover, that proof is testament to my work and the work of others. This process is described above and is referred to as **Mining**.
-
+Another peculiar aspect of Bitcoin's use of Proof of Work is that proofs are said to be "found". I don't just prove my work. I don't just prove work. I find a proof of work. Moreover, that proof is testament to my work and the work of others. Recall that the proof of work is demonstrative of more work than any one person, entity, or government, is capable of performing. The presenter of the work is selected randomly. This process is described above and is referred to as **Mining**.
 
 The security of the Bitcoin network emerges from and relies upon 2 things: 
 -	Proof of Work (Consensus)
@@ -186,8 +185,8 @@ Proof of Work
   how do you know you dont need to start over? You don't need to go back and learn how to add because you remember! How do we know the work we did yesterday remains?
 - How
   - rate limits acceptance of new information
-  - ties digital to physical. What does this actually mean at its core? prevents costless alteration? In a world where we want to do things as cheaply as possible why would we select such system of explicit cost. The answer is because the enemy you know is better than the enemy you dont. Our current system of money as enormous cost, a great deal of which is implicit/obfuscated. We must have cost to have security. We are looking to make something digital hard to acquire. You cannot copy Bitcoin. The value is in a consistent and verifiable ledger. You can copy the list of numbers and how they change over time transactions. Why does any one list of transactions have meaning? Because we know its the list we started working on 10 years ago, we know nobody has changed any part of the list (our work was done and our work remains), we know new additions to the list follow the laws agreed to by everyone (work continues).
-  - metric of differentiation. PoW is the Authority.
+  - ties digital to physical. What does this actually mean at its core? prevents costless alteration? In a world where we want to do things as cheaply as possible why would we select such system of explicit cost? The answer is because the enemy you know is better than the enemy you don't. Our current system of money has enormous cost, a great deal of which is implicit/obfuscated. We must have cost to have security. We are looking to make something digital hard to acquire. You cannot copy Bitcoin. The value is in a consistent and verifiable ledger. You can copy the list of numbers and how they change over time transactions. Why does any one list of transactions have meaning? Because we know its the list we started working on 10 years ago, we know nobody has changed any part of the list (our work was done and our work remains), we know new additions to the list follow the laws agreed to by everyone (work continues).
+  - metric of differentiation. PoW is the Authority. So long as the work is performed by a decentralized collection of workers, then we will have decentralized authority (is this angle giving miners more power than they have?)
 - Who
   - list builders for list validators
 - When
