@@ -109,14 +109,14 @@ Another peculiar aspect of Bitcoin's use of Proof of Work is that proofs are sai
 
 The security of the Bitcoin network emerges from and relies upon 2 things: 
 -	Proof of Work (Consensus)
--	Independent Verification. Network participants who live by the slogan “Don’t Trust. Verify”
+-	Independent Verification. All system updates are subject to a continuous audit. Anyone can audit the system themselves using relatively inexpensive computing hardware. Network participants who live by the slogan “Don’t Trust. Verify”
 
 Explain each of the above …
 Proof of Work is not enough to secure the system. It is Proof of Work in combination with a set of network nodes, all of which perform auditing/state validation functions.
  
 - With “Don’t Trust. Verify” but without Proof of Work, we would have a network which ensures that every message it’s participants propagate meets network defined requirements (authorized, no inflation, no double spend), but no way to ensure that every participant reaches the same view of the system state (no consensus).
 
-- With Proof of Work but without “Don’t Trust. Verify”, we would have a network in which participants are able to reach consensus on the state of the system but are not able to say anything meaningful about whether the state is valid (as they would be verifying work only and trusting that messages are valid).
+- With Proof of Work but without “Don’t Trust. Verify”, we would have a network in which participants are able to reach consensus on the state of the system but are not able to say anything meaningful about whether the state is valid (as they would be verifying work only and trusting that messages are adhere to some pre-defined set of rules).
 
 Put the above two concepts together and we can build a network which reaches consensus on the state of the system and that state will be valid as defined by a set of agreed upon rules.
  
@@ -132,6 +132,17 @@ If one of those "consensus" or system rules specifies that all Bitcoin denominat
 - [Subsidy Enforcement](https://github.com/bitcoin/bitcoin/blob/0.20/src/validation.cpp#L2159)
 - [Difficulty Adjustment]()
 
+How might you change one of these rules? Just update my version of the Bitcoin code to remove the portions linked above and PRESTO - instant Bitcoin destruction right? Wrong. Recall that Proof of Work turns unilateral rule changes and false system states of would be usurpers into harmless individual delusions. A popular analogy is attempting to fork or alter the rule set of a popular game like soccer or chess. You could for example, decide that Castles can move diagonally or that the Away team can field 13 players. You could even convince a few of your buddies to go along with your rule change - such a decision would be called "House Rules" posing no threat whatsoever to the way the game is and has been played across the World for centuries.
+
+There is no single source of truth on the information how the games of soccer and chess are played. 
+
+You do not consult a single company, government or even the game's creator for an authoritative decision on the matter. This information is "common knowledge", replicated and decentralized (passed down through generations), housed inside the minds of people all across the globe. Likewise the Bitcoin rules are knowledge, replicated and decentralized stored inside the software run by millions of people around the globe. Bitcoin makes who owns what common knowledge. Paradoxically it makes who owns what common knowledge without making specifically who owns what common knowledge. Rather it makes the knowledge that some people own specific things common, but does identify who those people are.
+
+To change the rules, you must convince far more than just your buddies. You must convince a whole world of people, all of whom have Skin in the Game, to adopt a rule set that undermines their own best interest (doesn't sound impossible lol). The more people who move to Bitcoin for the properties here outlined, the harder this becomes. (Social Contract Theory)
+
+
+Bitcoin does not yet have centuries of established tradition. It has not yet planted seeds decentralized knowledge...
+
 
 ### On Running a Bitcoin Node and Participating in a New World Monetary System
 When you start running your own Bitcoin node you aren’t some gullible financial system participant blindly trusting the authority of a centralized financial coordinator to maintain your purchasing power. You are instead a ruthless verifier, scrutinizing the validity of all transactions in agonizing detail. When you run the Bitcoin software you instantly become a member of the best auditing firm in the world. When you arrive at the current state, you can be sure that it is valid as you have ensured so yourself. When you run the Bitcoin software ...
@@ -140,7 +151,7 @@ You join a network of those similarly dedicated to building a network for commun
 
 Working to maintain a historical record of all transactions. It is from such a record/ledger which we can build a monetary system which transcends jurisdiction and, as a result, is not possibly beholden to the interest of any one individual, corporation, or even nation.
 
-Attempts to create money out of nothing are not recognized. Attempts to move money without proper authorization? Not recognized. This is ***Network Enforced Digital Scarcity***. This is, for the first time in modern history, a separation of money and state.
+Attempts to create money out of nothing are not recognized. Attempts to move money without proper authorization? Not recognized. This is ***Network Enforced Digital Scarcity***. This is, for the first time in modern history, a separation of money and state. 
 
 
 How can you trust the messages you are being sent? With. Proof of Work generates emergent authority. Authority in the absence of authority.
