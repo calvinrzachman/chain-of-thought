@@ -44,7 +44,7 @@ What makes it different from scaling of old?
 
 ## What is Bitcoin?
 
-Bitcoin is many different things to different people. For some, Bitcoin is hope, for others [Bitcoin is freedom](https://www.youtube.com/watch?v=xLYYh4aPXAM), yet others still - [Bitcoin is Time](https://dergigi.com/2021/01/14/bitcoin-is-time/). Metaphor and philosophical musing aside, for the purposes of this summary Bitcoin is two things: Bitcoin is a software protocol which forms the basis of a global, censorship resistant, monetary settlement network, and the accounting unit native to the ledger that software protocol maintains. The latter concerns what is owned, while the former concerns the system which enables digital scarcity and ownership without central authority in the first place. 
+Bitcoin is many different things to different people. For some, Bitcoin is hope, for others [Bitcoin is freedom](https://www.youtube.com/watch?v=xLYYh4aPXAM), yet others still - [Bitcoin is Time](https://dergigi.com/2021/01/14/bitcoin-is-time/). Metaphor and philosophical musing aside, for the purposes of this summary Bitcoin is two things: Bitcoin is a software protocol which forms the basis of a global, censorship resistant, monetary settlement network, and bitcoin is the accounting unit native to the ledger that software protocol maintains. The latter concerns what is owned, while the former concerns the system which enables *digital scarcity* and ownership without central authority in the first place. 
 
 When you own a Bitcoin, what do you actually own? 
 
@@ -52,7 +52,7 @@ Bitcoin the emerging monetary commodity, “a bitcoin”, is a number stored in 
 
 When you own Bitcoin, you have knowledge of a piece of information, usually just a large random number called a *private key*, which can be used to update the ledger and transfer the number to control by a different key.
 
-[Elaborate a bit here]
+[ Possibly draw comparison to what the reader is somewhat familiar - our current system of digital centralized ledger money. SEE: *'Comparison to Deposits'*]
 
 Bitcoin is an entry in a ledger that ONLY you can control, and you can do so WITHOUT anyone’s permission.
 
@@ -67,15 +67,14 @@ Bitcoin is absolute scarcity.
 Bitcoin is digital real estate.
 Bitcoin is digital gold.
 Bitcoin is information.
-Bitcoin is Venice (lol).
+[Bitcoin is Venice](https://allenfarrington.medium.com/bitcoin-is-venice-8414dda42070).
 
 KEY QUESTIONS: 
 - How does Bitcoin build a ledger? 
 - How are you able to interact with the system without asking permission?
 
 Bitcoin is a software protocol for cooperatively building lists/ledgers in a low trust environment. 
-Bitcoin is a software protocol for cooperative list building, and that list has come to be known as a blockchain.
-Bitcoin is a number in a ledger.
+Bitcoin is a software protocol for cooperative list building.
 
 So what does Bitcoin’s ledger look like? How is it built and what unique properties does it have?
 In other words, where do Bitcoin’s censorship resistance and scarcity properties come from?
@@ -83,8 +82,149 @@ In other words, where do Bitcoin’s censorship resistance and scarcity properti
 The unique properties do NOT come from the ledger alone, but from the ledger and the network of people which maintain it.
 
 
+### Comparison to Deposits
+Both Bitcoin and bank deposits involve controlling numbers in a ledger. The key difference lies in who owns and controls access to that ledger. With a bank, the ledger is under the full discretion of the bank. With the Bitcoin Network’s ledger(s) there is no sole controller. 
+
+Another key distinction to be made is what information system users must give up to access and transact with their own funds. With a bank ledger, the user must give up thier identity. There are no private bank transactions. Period. 
+
+QUESTION: When you own a US dollar, what do you actually own? What defines your ownership of it? Who can take that ownership away?
+
+You own information that will allow you to “control” (with permission of your bank) entries in the Bank’s ledger. It would be improper to state that you have true control, as entries may only be updated with the permission of your Bank. The pieces of information used to authorize ledger entries are personal. You must use your personal private information (name, billing address, etc.). What’s more, you must also give the keys to your account any time you wish to use it. Every m
+
+At this point, you might reasonably object: “hey, but I can withdraw my money from the bank and receive physical cash if I want to”. True, you can exchange your IOU from the Bank for physical cash, but historically this conversion has not always been honored. Formerly you could exchange the paper cash for gold - today this exchange is a digital claim on dollars for physical paper money. This is a form of counter-party risk which arises from having a trusted third party custody your assets. In a well functioning system, one might deem the risk minimal and perhaps even well worth the service provided by the custodial insitution.
+
+Bitcoin is actually quite similar in this regard. Recall, Bitcoin is controlled by a key. The key can be held for you by a trusted 3rd party, in which case you have a claim to Bitcoin being held in you name. This claim is only as good as the institution issuing it. You also have the option to “withdraw” your Bitcoin, transferring ownership of the Bitcoin from the exchange’s key to a key that you (and you alone) control. You have just realized the digital equivalent of “stuffing your cash under your mattress”.
+
+Except that if invaders come, turn over your mattress, there will be no cash to see. Bitcoin takes up zero space. Private keys to Bitcoin are information. Bitcoin can be stored anywhere analog (on paper), digital (bits - 01100101), and even biological memory (you can store the private keys to Bitcoin in your brain!).
+
+
+## What is a blockchain? Is it important? Does it “fix everything”? 
+#### Corollary: What is Bitcoin’s Blockchain?
+
+- Consider an individual building a list in blockchain form in isolation and then presenting that list to others. Does the blockchain format enable anything useful in such a scenario?
+- Consider a network of people working to build a list, of which they all retain an individual copy. Does a blockchain enable anything useful in this scenario?
+
+A blockchain is a list
+A blockchain is a …
+
+
+A blockchain is highly specified way of writing down or storing information that makes it
+A blockchain is, on its own, nothing worth getting excited about. An individual storing data in blockchain form is not special. Such an individual could show you his data cleanly written out in blockchain form. All he could prove to you was that some messages/data entries existed before other entries. He could NOT prove the wall clock time when they were created as you would have to trust that he entered the correct timestamp. All he can prove is relative existence, namely that data point A existed before data point B. 
+
+You could write down your grocery lists in blockchain form. You could prove that some of your your grocery list existed before your grocery list from last Tuesday. But that is all you could prove. A blockchain imposes an ordering to the messages in your list.
+
+An individual storing data in blockchain form is not special. The great power of such a storage mechanism emerges when independently verified copies of the transaction list in blockchain form are maintained by a collection of people distributed geographically - ala by a network of computers - who are able to come to agreement on one common vision of history.
+
+QUESTION: What great power is this? Bitcoin's properties of censorship resistance and *absolute* digital scarcity of course!
+
+A fundamental question:
+- How do participants in the network agree on the state of the list?
+- How do participants in the network arrive at the same view on the state of the list?
+- How do they come to consensus on the state of the list?
+
+
+With Bitcoin, Satoshi achieves distributed consensus. That is, agreement on state amongst a set of distributed and independent entities.
+
+
+Blockchain does NOT fix everything, but Bitcoin might :)
+
+
+Bitcoin’s ledger, like any ledger, is a system for tracking private property rights and securing the willful transfer of those rights.
+ 
+We have built institutions to defend these ownership rights. One could argue that the purpose of the legal system is to codify a rule set which can be used to resolve property disputes without resorting to violence. To establish a system of trust, a base from upon which humans feel comfortable building and exchanging with one another. They need not trust each other as long as they trust the institutions. The ultimate enforcer of such a codification of rules is an institution with a legal monopoly on violence. This institution has traditionally been called “government”. At the end of the day your ownership of any physical or informational property is protected by either yourself or the legal monopoly on violence. When trust in these institutions is high. However, this poses problems when faith in our institutions.
+
+Bitcoin codifies a rule set in source code. The court system is the Bitcoin Network. Human bias and subjectivity is less prevalent here. Un-equal application. The ideal of “equal justice under the law” is more faithfully executed.
+
+Bitcoin’s blockchain is “an open source ledger which keeps track of ownership rights and permits the transfer of these rights” Jeff Tucker
+
+
+## Finding Order in Chaos - Proof of Work (Extra Credit)
+
+At the risk of getting a bit technical. Proof of Work is THE key. 
+
+Thoroughly understand 2 things and you will likely understand Bitcoin:
+- Proof of Work and Difficulty Adjustment
+- 
+
+What is Proof of Work? It’s exactly what it sounds like. It is a proof that a certain amount of physical work has been done. A freshly mowed lawn or Thanksgiving table is proof that some amount of work has been performed. My message, “Hey Dad, I mowed the lawn today,” is easily verified by him looking out the window and seeing a pristine lawn. The Great Pyramids stand as testament to the Greatness of the ancient Egyptian civilization. 
+
+Bitcoin uses a mechanism to demonstrate work that is better suited towards building a digital money by exploiting the random nature of the cryptographic hash function mentioned previously. It is better suited since it lets us pass on the work to the computers. In place of human time, we use compute time. But because computers require energy to function, compute time is still tied to the physical world.
+
+
+In an open network where participants are pseudonymous and able to join and leave at will, how does one differentiate between candidate states? If anyone can propose their own state, what is to make one state more valid than any other?
+
+Any network participant could, in theory, create whatever state he desired (it is just a list of transactions after all), share it with his peers, and attempt to get them to adopt it as their own. Obviously if he was successful in doing this, his state would be come the de-facto state of the network. In the Bitcoin protocol, unlike historical institutions constructed by man, his authority to propose such a state and its correctness in the eyes of his fellow participants does not come from wealth, political connectedness, or birthright. It instead comes from work and energy expenditure, a cost he proves paid each time he updates the state (collective). Who gets to prove energy expenditure?
+
+Any individual network participant can create or accept whatever view of the system they want. Can they convince others that their view of the system state is correct? If we define "correct" as the system state with the greatest work (highest energy) then the answer is "No". Consider a dishonest network participant who creates his own set of ordered messages (his own state) favorable to himself. In the absence of Proof of Work, the validity of his system state is indistinguishable from any other. He can present his system state to another network participant and, in the absence of additional information, they will be unable to discern the validity of the candidate states. They will have to find different criteria on which to assess competing states. A metric for determining validity is needed.
+
+What does it mean for a system state to be "correct"? What is to make one state more valid than any another? In systems with a central Authority, the correct state is determined by that Authority - the state proposed by your Bank is the valid state. In a pseudonymous distributed network of state maintainers we use work/energy. 
+
+  >* Valid states must carry Proof of Work. The most valid states carry Proof of the most Work.
+
+This requirement enables consensus. Given two competing views of the system state, a network participant can always select the system state endorsed by greater work. Dishonest participants are unable to present valid alternative states as they cannot forge energy (Szabo's "unforgeable costliness"). Perhaps Proof of Energy Expenditure would better describe the mechanism here. So long as one party does not control a majority of the energy in the system, they cannot convince network participants to accept any system state other than the system state constructed by the most energetic cohort of network participants. They cannot forge Bitcoin. They cannot "double spend" Bitcoin. Proof of Work turns the dishonest network views/false system states of would be usurpers into harmless individual delusions. To dishonest Bitcoin Network participants: For full credit (state acceptance), prove your work!
+
+Network participants can come and go as they please, 
+In Satoshi's own words: "nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone."
+
+While Proof of Work was invented in the 90's, Satoshi's application to distributed consensus is novel and this is sometimes referred to as Nakamoto Consensus, in his honor. 
+
+When combined with a proof of work, our blockchain list levels up. It becomes resistant/immune to forgery and ex-post facto data corruption. (I think it is actually the blockchain in combination with a proof of work network which achieves this).
+
+
+## Building Lists
+
+Bitcoin is a software protocol for cooperatively building lists/ledgers in a low trust environment. 
+
+## Censorship Resistance
+
+“The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust.”
+ 		~ Satoshi Nakamoto
+    
+    
   >“The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust.”
   > ~ Satoshi Nakamoto
+
+
+- KEY IDEA: Censorship arises out of trust placed in the hands of a central authority.
+
+Hyper-cognizance of where you place trust.
+If the ledger is owned by any one individual or entity, then it can be changed by that individual or entity. Period. The only solution is to decentralize the record keeping (what does that even mean?).
+
+Decentralization of record keeping is achieved through constructing the system of record keeping to be as lightweight and simple as possible, by constraining the amount of records to be kept, by providing a small payment to the record keepers, and by building a system in which anyone can become a record keeper without asking permission. The first item above, the constraining of information, is quite clearly at odds with expanding transactional throughput. The more information you ask participants to process, the fewer will be able to complete the task at hand. This is centralization of processing and validation in the hands of a smaller and smaller few. To do this is to destroy digital scarcity. To do this is to create yet another system of Centrally "enforced" digital scarcity. Centrally "enforced" digital scarcity is easily infringed. Network Enforced Digital Scarcity.
+
+Decentralized record keeping? That’s it? What gives? Sometimes what sells and what explains are two different things. You will learn to love decentralized record keeping.
+
+
+A system in which anyone can join without asking permission implies that there is NO authority with whom to seek permission. There is no single entity capable of controlling the system. There is no authorized set of users. ANYONE (or any programmable thing) can use Bitcoin. Bitcoin does not recognize race, gender, faith, political affiliation, or socio-economic status. It recognizes public/private key cryptography, digital signatures, and energy (proof of work).  Bitcoin eliminates sole sources of truth by design, instead achieving decentralized emergent authority through Proof of Work.
+
+With no central coordinator or maintainer how can there be order? Decentralized emergent authority/order.
+
+
+## Creating Digital Scarcity
+
+- How can it be that Bitcoin is scarce?
+- Centrally “Enforced” Digital Scarcity
+- Network Enforced Digital Scarcity
+
+I am convinced that the elusiveness of Bitcoin’s value prop stems, in large part, from a lack of understanding of how Bitcoin achieves digital scarcity. 
+
+“Money is essentially a tool to keep track of who owes what to whom. Broadly speaking, everything we have used as money up to now falls into two categories: physical artifacts and informational lists. Or, to use more common parlance: tokens and ledgers.” ~ Dergigi
+
+Proliferation of digital information is incredibly cheap. This is one reason that computers and networks like the Internet are so useful, but if your aim is to construct a digital system of global money, this ease of duplication is disastrous (if normal citizens have the ability to duplicate that is).
+
+Information is not physical. What is non-physical is also non-rivalrous. My possession of information does not preclude you from having the same information, unless I wont share the information with you :).
+
+Information is only scarce in the absence of communication. Conversely, information is as abundant as knowledge and communication permit. 
+
+The list can be copied, altered and shared by any individual. How to deal with this
+How can honest users cut through the noise and coalesce around one common vision of history?
+
+
+## How is Bitcoin created?
+
+## What is Mining?
+
+## Where did Bitcoin come from?
 
 
 ## Further Reading
