@@ -43,6 +43,18 @@ What makes it different from scaling of old?
 
 ## What is Bitcoin?
 
+### Outline
+
+- Bitcoin the asset
+    - A number in a ledger
+- Bitcoin the Network
+    - A collection of individuals cooperatively building a ledger
+- Bitcoin’s ledger
+    - Blockchain/Timechain
+- Decentralized Record Keeping/List Building
+    - Finding Order in Chaos - Proof of Work
+- Censorship Resistance and Digital Scarcity
+
 Bitcoin is many different things to different people. For some, Bitcoin is hope, for others [Bitcoin is freedom](https://www.youtube.com/watch?v=xLYYh4aPXAM), yet others still - [Bitcoin is Time](https://dergigi.com/2021/01/14/bitcoin-is-time/). Metaphor and philosophical musing aside, for the purposes of this summary Bitcoin is two things: Bitcoin is a software protocol which forms the basis of a global, censorship resistant, monetary settlement network, and bitcoin is the accounting unit native to the ledger that software protocol maintains. The latter concerns what is owned, while the former concerns the system which enables *digital scarcity* and ownership without central authority in the first place. 
 
 When you own a Bitcoin, what do you actually own? “A bitcoin”, is a number stored in a ledger (list). However, it is a number stored in a very specific and special kind of ledger - one unlike any you have encountered before. A ledger with truly unique properties.
