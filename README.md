@@ -44,22 +44,19 @@ What makes it different from scaling of old?
 
 ## What is Bitcoin?
 
-Bitcoin is many different things to different people. For some, Bitcoin is hope, for others Bitcoin is freedom (link to Alex Gladstein), yet others still - Bitcoin is Time (Gigi)/Venice (lol). Metaphor and philosophical hot takes aside, for the purposes of this summary Bitcoin is two things: Bitcoin is a software protocol which forms the basis of a global, censorship resistant, monetary settlement network, and the accounting unit native to the ledger that software protocol maintains. The former concerns what is owned, while the latter concerns the system which enables digital scarcity and ownership without central authority in the first place. 
+Bitcoin is many different things to different people. For some, Bitcoin is hope, for others [Bitcoin is freedom](https://www.youtube.com/watch?v=xLYYh4aPXAM), yet others still - [Bitcoin is Time](https://dergigi.com/2021/01/14/bitcoin-is-time/). Metaphor and philosophical musing aside, for the purposes of this summary Bitcoin is two things: Bitcoin is a software protocol which forms the basis of a global, censorship resistant, monetary settlement network, and the accounting unit native to the ledger that software protocol maintains. The latter concerns what is owned, while the former concerns the system which enables digital scarcity and ownership without central authority in the first place. 
 
 When you own a Bitcoin, what do you actually own? 
 
-Bitcoin the emerging monetary commodity, “a bitcoin”, is a number stored in a ledger (list). However, it is a number stored in a very specific and special kind of ledger - one unlike any you have encountered before.
-A ledger with truly unique properties.
+Bitcoin the emerging monetary commodity, “a bitcoin”, is a number stored in a ledger (list). However, it is a number stored in a very specific and special kind of ledger - one unlike any you have encountered before. A ledger with truly unique properties.
 
-When you own Bitcoin, you have knowledge of a piece of information, usually just a large random number called a private key, which can be used to update the ledger and transfer the number to control by a different key. This is not categorically different from how our current system works.
+When you own Bitcoin, you have knowledge of a piece of information, usually just a large random number called a *private key*, which can be used to update the ledger and transfer the number to control by a different key.
 
-
+[Elaborate a bit here]
 
 Bitcoin is an entry in a ledger that ONLY you can control, and you can do so WITHOUT anyone’s permission.
 
-The Bitcoin Network is a collection of individuals, each maintaining their own ledger and enforcing a set of agreed upon rules encoded in software, their support for which is expressed in their electing to run the software under their own free will. The Bitcoin software is available for free on the Internet and is fully observable by anyone with the ability to read the C++ reference implementation. When you run the software and plug in to the Bitcoin Network, you aren’t some gullible financial system participant blindly trusting the authority of a centralized financial coordinator to maintain (with) your purchasing power. You are instead a ruthless verifier, scrutinizing the validity of all transactions in agonizing detail. When you run the Bitcoin software you instantly become a member of the best auditing firm in the world. [When you arrive at the current state, you can be sure that it is valid as you have ensured so yourself.] When you receive Bitcoin you can rest assured that it is authentic as you have verified this history yourself.
-
-When you run the Bitcoin software you join all others who do the same, working to build and preserve a historical record of transactions. It is from such a record which we can build a monetary system which transcends jurisdiction and is, as a result, not possibly beholden to the interest of any one individual, corporation, or even nation. Attempts to create money out of nothing are not recognized. Attempts to move money without proper authorization. Not recognized. This is network enforced digital scarcity. This is, for the first time in modern history, a separation of money and state.
+The Bitcoin Network is a collection of individuals, each maintaining their own ledger and enforcing a set of agreed upon rules encoded in software, their support for which is expressed in their electing to run the software under their own free will. The [Bitcoin software](https://bitcoin.org/en/bitcoin-core/) is available for free on the Internet and is fully observable by anyone with the ability to read the [C++ reference implementation](https://github.com/bitcoin/bitcoin). When you run the software and plug in to the Bitcoin Network, you aren’t some gullible financial system participant blindly trusting the authority of a centralized financial coordinator to maintain (with) your purchasing power. You are instead a ruthless verifier, scrutinizing the validity of all transactions in agonizing detail. When you run the Bitcoin software you instantly become a member of the best auditing firm in the world. When you run the Bitcoin software you join all others who do the same, working to build and preserve a historical record of transactions. It is from such a record which we can build a monetary system which transcends jurisdiction and is, as a result, not possibly beholden to the interest of any one individual, corporation, or even nation. Attempts to create money out of nothing are not recognized. Attempts to move money without proper authorization. Not recognized. This is network enforced digital scarcity. This is, for the first time in modern history, a separation of money and state.
 
 So we have Bitcoin, the network, and bitcoin, the asset.
 
@@ -86,7 +83,8 @@ In other words, where do Bitcoin’s censorship resistance and scarcity properti
 The unique properties do NOT come from the ledger alone, but from the ledger and the network of people which maintain it.
 
 
-
+  >“The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust.”
+  > ~ Satoshi Nakamoto
 
 
 ## Further Reading
