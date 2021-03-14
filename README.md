@@ -242,3 +242,13 @@ How can honest users cut through the noise and coalesce around one common vision
 - [Bitcoin is Time](https://dergigi.com/2021/01/14/bitcoin-is-time/) - Dergigi
 - Bitcoin Audible Podcast - Guy Swann (most of these articles are available in audio format here)
 - Stefan Livera Podcast
+
+
+### Misc
+
+Bitcoin are locked with a spending condition. The spending condition can be fairly arbitrary, but most often the condition specifies that a digital signature must be presented in order to use these bitcoin in a transaction. Transactions transfer Bitcoin from one spending condition to another, typically from one owner/key to another. 
+
+
+The structure of the spending conditions are chosen by the owner of the Bitcoin (this is actually where Bitcoin really earns its label of “Programmable Money”).  The network will not process transactions attempting to update ledger entries which do not satisfy these spending conditions.
+
+In Bitcoin, coins (UTXO) are locked with a spending condition. The mechanism used to enforce the association of Bitcoin UTXO and its spending condition is a simple scripting language that is understood and executed on every Bitcoin network node. The spending condition can be empty (allowing anyone to spend) but most commonly they bind Bitcoin to the owner of a public/private key pair. In almost all cases, the act of spending coins becomes a problem of proving knowledge of the associated private key. The most simple way to do this would be to simply announce the private key to the network. However, this is undesirable and prompts search for a better method. Digital signatures are this alternative.
