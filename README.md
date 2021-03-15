@@ -116,11 +116,23 @@ Except that if invaders come, turn over your mattress, there will be no cash to 
 A blockchain is a list
 A blockchain is a …
 
+[ TODO: High level explaination of how messages (blocks) are linked in a chain ]
 
-A blockchain is highly specified way of writing down or storing information that makes it
-A blockchain is, on its own, nothing worth getting excited about. An individual storing data in blockchain form is not special. Such an individual could show you his data cleanly written out in blockchain form. All he could prove to you was that some messages/data entries existed before other entries. He could NOT prove the wall clock time when they were created as you would have to trust that he entered the correct timestamp. All he can prove is relative existence, namely that data point A existed before data point B. 
+- Hash Functions (Magic One Way Function: input --> output, but NOT output --> input. Ex: y=2\*x is NOT one way. 2*(2) = 4 and 4/(2) = 2)
+- Hashed Messages
+- Chain of Hashed Messages - Each block/message contains a reference to all messages which came before it. Concretely, this reference is the output of taking the message, representing it as a number, pumping this number through a "hash function" and observing the output number. This imposes an ordering to the messages. Message This imposes an ordering to the messages as Message A must exist before Message B if Message B refers to the Message A. Rather, message A must exist before message B if message B contains a reference to the hash of message A. The hash of message A is a value incalculable without knowledge of message A.
 
-You could write down your grocery lists in blockchain form. You could prove that some of your your grocery list existed before your grocery list from last Tuesday. But that is all you could prove. A blockchain imposes an ordering to the messages in your list.
+m1 ... mN ------------   mN+1 ------------       ...
+         | - list data       | - more list data
+         | - reference       | - reference to mN
+             to m(N-1)
+
+A blockchain is highly specified way of writing down or storing information in which, each time you go to update what you've written, you include a reference to all the messages which came before. Concretely, this reference is constructed by taking the the information you have already written (historical record), representing it as a number, pumping this number through a "hash function" and observing the output number. Take history, represent it as a number (encoding/serialization), pump it through a one-way function (critical - what does the one-way function do? See [Bitcoin is Time](https://dergigi.com/2021/01/14/bitcoin-is-time/)), and include this in your message to be added. 
+
+A blockchain is a self referencing list.
+A blockchain is, on its own, nothing worth getting excited about. An individual storing data in blockchain form is not special. Such an individual could show you his data cleanly written out in blockchain form. All he could prove to you was that some messages/data entries existed before other entries. He could NOT prove the wall clock time when they were created as you would have to trust that he entered the correct timestamp. All he can prove is relative existence, namely that message A existed before message B. 
+
+You could write down your grocery lists in blockchain form. You could prove that some of your your grocery list existed before other parts of your grocery list. But that is all you could prove. A blockchain simply imposes an ordering to the messages in your list.
 
 An individual storing data in blockchain form is not special. The great power of such a storage mechanism emerges when independently verified copies of the transaction list in blockchain form are maintained by a collection of people distributed geographically - ala by a network of computers - who are able to come to agreement on one common vision of history.
 
