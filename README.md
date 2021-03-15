@@ -121,12 +121,12 @@ A blockchain is a …
 - Hash Functions (Magic One Way Function: input --> output, but NOT output --> input. Ex: y=2\*x is NOT one way. 2*(2) = 4 and 4/(2) = 2)
 - Hashed Messages
 - Chain of Hashed Messages - Each block/message contains a reference to all messages which came before it. Concretely, this reference is the output of taking the message, representing it as a number, pumping this number through a "hash function" and observing the output number. This imposes an ordering to the messages. Message This imposes an ordering to the messages as Message A must exist before Message B if Message B refers to the Message A. Rather, message A must exist before message B if message B contains a reference to the hash of message A. The hash of message A is a value incalculable without knowledge of message A.
-
+```
 m1 ... mN ------------   mN+1 ------------       ...
          | - list data       | - more list data
          | - reference       | - reference to mN
              to m(N-1)
-
+```
 A blockchain is highly specified way of writing down or storing information in which, each time you go to update what you've written, you include a reference to all the messages which came before. Concretely, this reference is constructed by taking the the information you have already written (historical record), representing it as a number, pumping this number through a "hash function" and observing the output number. Take history, represent it as a number (encoding/serialization), pump it through a one-way function (critical - what does the one-way function do? See [Bitcoin is Time](https://dergigi.com/2021/01/14/bitcoin-is-time/)), and include this in your message to be added. 
 
 A blockchain is a self referencing list.
