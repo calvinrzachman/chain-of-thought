@@ -138,25 +138,21 @@ An individual storing data in blockchain form is not special. The great power of
 
 QUESTION: What great power is this? Bitcoin's properties of censorship resistance and *absolute* digital scarcity of course!
 
+### Bitcoin's Blockchain (Building Lists)
+
+[More on the Bitcoin Network and Decentralized Record Keeping]
+
+The list can be copied, altered and shared by any individual. How can honest users cut through the noise and coalesce around one common vision of history?
+
 A fundamental question:
 - How do participants in the network agree on the state of the list?
 - How do participants in the network arrive at the same view on the state of the list?
 - How do they come to consensus on the state of the list?
 
-
 With Bitcoin, Satoshi achieves distributed consensus. That is, agreement on state amongst a set of distributed and independent entities.
 
 
 Blockchain does NOT fix everything, but Bitcoin might :)
-
-
-Bitcoin’s ledger, like any ledger, is a system for tracking private property rights and securing the willful transfer of those rights.
- 
-We have built institutions to defend these ownership rights. One could argue that the purpose of the legal system is to codify a rule set which can be used to resolve property disputes without resorting to violence. To establish a system of trust, a base from upon which humans feel comfortable building and exchanging with one another. They need not trust each other as long as they trust the institutions. The ultimate enforcer of such a codification of rules is an institution with a legal monopoly on violence. This institution has traditionally been called “government”. At the end of the day your ownership of any physical or informational property is protected by either yourself or the legal monopoly on violence. When trust in these institutions is high. However, this poses problems when faith in our institutions.
-
-Bitcoin codifies a rule set in source code. The court system is the Bitcoin Network. Human bias and subjectivity is less prevalent here. Un-equal application. The ideal of “equal justice under the law” is more faithfully executed.
-
-Bitcoin’s blockchain is “an open source ledger which keeps track of ownership rights and permits the transfer of these rights” Jeff Tucker
 
 
 ## Finding Order in Chaos - Proof of Work (Extra Credit)
@@ -237,8 +233,7 @@ Information is not physical. What is non-physical is also non-rivalrous. My poss
 
 Information is only scarce in the absence of communication. Conversely, information is as abundant as knowledge and communication permit. 
 
-The list can be copied, altered and shared by any individual. How to deal with this
-How can honest users cut through the noise and coalesce around one common vision of history?
+The list can be copied, altered and shared by any individual.How can honest users cut through the noise and coalesce around one common vision of history?
 
 
 ## How is Bitcoin created?
@@ -269,6 +264,15 @@ How can honest users cut through the noise and coalesce around one common vision
 
 
 ### Misc
+
+Bitcoin’s ledger, like any ledger, is a system for tracking private property rights and securing the willful transfer of those rights.
+ 
+We have built institutions to defend these ownership rights. One could argue that the purpose of the legal system is to codify a rule set which can be used to resolve property disputes without resorting to violence. To establish a system of trust, a base from upon which humans feel comfortable building and exchanging with one another. They need not trust each other as long as they trust the institutions. The ultimate enforcer of such a codification of rules is an institution with a legal monopoly on violence. This institution has traditionally been called “government”. At the end of the day your ownership of any physical or informational property is protected by either yourself or the legal monopoly on violence. When trust in these institutions is high. However, this poses problems when faith in our institutions.
+
+Bitcoin codifies a rule set in source code. The court system is the Bitcoin Network. Human bias and subjectivity is less prevalent here. Un-equal application. The ideal of “equal justice under the law” is more faithfully executed.
+
+Bitcoin’s blockchain is “an open source ledger which keeps track of ownership rights and permits the transfer of these rights” Jeff Tucker
+
 
 Bitcoin are locked with a spending condition. The spending condition can be fairly arbitrary, but most often the condition specifies that a digital signature must be presented in order to use these bitcoin in a transaction. Transactions transfer Bitcoin from one spending condition to another, typically from one owner/key to another. 
 
