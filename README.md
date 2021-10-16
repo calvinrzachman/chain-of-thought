@@ -61,7 +61,7 @@ When you own a Bitcoin, what do you actually own? “A bitcoin”, is a number s
 
 [ Possibly draw comparison to what the reader is somewhat familiar - our current system of digital centralized ledger money. SEE: *'Comparison to Deposits'*]
 
-Note that Bitcoin is actually quite similar to our current system of centralized digital ledger money, the US Dollar, ***in this regard*** . To illucidate, I'll ask the same question of the US Dollar: When you own a US dollar, what do you actually own? Excellent follow up questions include: What defines your ownership of it? Who can take that ownership away?
+Note that Bitcoin is actually quite similar to our current system of centralized digital ledger money, the US Dollar, ***in this regard***. To illucidate, I'll ask the same question of the US Dollar: When you own a US dollar, what do you actually own? Excellent follow up questions include: What defines your ownership of it? Who can take that ownership away?
 
 When you think of yourself has having US dollars, you own information that will allow you to “control” (with permission of your bank) numbers/entries in the Bank’s ledger. It would be improper to state that you have true control, as entries may only be updated with the permission of your Bank. The pieces of information used to authorize ledger entries are personal. You must use your personal private information (name, billing address, etc.)
 
@@ -118,9 +118,7 @@ You own information that will allow you to “control” (with permission of you
 
 At this point, you might reasonably object: “hey, but I can withdraw my money from the bank and receive physical cash if I want to”. True, you can exchange your IOU from the Bank for physical cash, but historically this conversion has not always been honored. Formerly you could exchange the paper cash for gold - today this exchange is a digital claim on dollars for physical paper money. This is a form of counter-party risk which arises from having a trusted third party custody your assets. In a well functioning system, one might deem the risk minimal and perhaps even well worth the service provided by the custodial insitution.
 
-Bitcoin is actually quite similar in this regard. Recall, Bitcoin is controlled by a key. The key can be held for you by a trusted 3rd party, in which case you have a claim to Bitcoin being held in you name. This claim is only as good as the institution issuing it. You also have the option to “withdraw” your Bitcoin, transferring ownership of the Bitcoin from the exchange’s key to a key that you (and you alone) control. You have just realized the digital equivalent of “stuffing your cash under your mattress”.
-
-Except that if invaders come, turn over your mattress, there will be no cash to see. Bitcoin takes up zero space. Private keys to Bitcoin are information. Bitcoin can be stored anywhere analog (on paper), digital (bits - 01100101), and even biological memory (you can store the private keys to Bitcoin in your brain!).
+Bitcoin is actually quite similar in this regard. Recall, Bitcoin is controlled by a key. The key can be held for you by a trusted 3rd party, in which case you have a claim to Bitcoin being held in your name. This claim is only as good as the institution issuing it. You also have the option to “withdraw” your Bitcoin, transferring ownership of the Bitcoin from the exchange’s key to a key that you (and you alone) control. In so doing, you have just realized the digital equivalent of “stuffing your cash under your mattress”. Except that if invaders come, turn over your mattress, there will be no cash to see. Bitcoin takes up zero space. Private keys to Bitcoin are information. Bitcoin can be stored anywhere analog (on paper), digital (bits - 01100101), and even biological memory (you can store the private keys to Bitcoin in your brain!).
 
 
 ## What is a blockchain? Is it important? Does it “fix everything”? 
