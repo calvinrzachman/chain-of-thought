@@ -59,19 +59,16 @@ Bitcoin is many different things to different people. For some, Bitcoin is hope,
 
 When you own a Bitcoin, what do you actually own? “A bitcoin”, is a number stored in a ledger (list). However, it is a number stored in a very specific and special kind of ledger - one unlike any you have encountered before. A ledger which, along with a geographically dispersed network of record keepers, has truly unique properties. When you own Bitcoin, you have knowledge of a piece of information, usually just a large random number called a *private key*, which can be used to update the ledger and transfer the number to control by a different key.
 
-   >“Money is essentially a tool to keep track of who owes what to whom. Broadly speaking, everything we have used as money up to now falls into two categories: physical artifacts and informational lists. Or, to use more common parlance: tokens and ledgers.” ~ Dergigi
- 
-Our money is already digital
-Increasingly less reliant on physical artifacts (cash) and increasingly more reliant on informational lists. 
-Consider the implications of this in a society which drifts ever farther from ...
-
 [ Possibly draw comparison to what the reader is somewhat familiar - our current system of digital centralized ledger money. SEE: *'Comparison to Deposits'*]
 
-Note that Bitcoin is actually quite similar to our current system of centralized digital ledger money, the US Dollar, in this regard. To illucidate, I'll ask the same question of the US Dollar: When you own a US dollar, what do you actually own? Excellent follow up questions include: What defines your ownership of it? Who can take that ownership away?
+Note that Bitcoin is actually quite similar to our current system of centralized digital ledger money, the US Dollar, ***in this regard*** . To illucidate, I'll ask the same question of the US Dollar: When you own a US dollar, what do you actually own? Excellent follow up questions include: What defines your ownership of it? Who can take that ownership away?
 
 When you think of yourself has having US dollars, you own information that will allow you to “control” (with permission of your bank) numbers/entries in the Bank’s ledger. It would be improper to state that you have true control, as entries may only be updated with the permission of your Bank. The pieces of information used to authorize ledger entries are personal. You must use your personal private information (name, billing address, etc.)
 
 So, both Bitcoin and bank deposits involve controlling numbers in a ledger. The key difference lies in who owns and controls access to that ledger. With a bank, the ledger is under the full discretion of the bank. With the Bitcoin Network’s ledger(s) there is no sole controller. Bitcoin is an entry in a ledger that ONLY you can control, and you can do so WITHOUT anyone’s permission. (Answer the How? later)
+
+Digital payments today are software applications which communicate intent (ask permission) to update centralized ledgers maintained by banks. 
+Digital property transfers on Bitcoin are a whole different breed...
 
 The Bitcoin Network is a collection of individuals, each maintaining their own ledger and enforcing a set of agreed upon rules encoded in software, their support for which is expressed in their electing to run the software under their own free will. The [Bitcoin software](https://bitcoin.org/en/bitcoin-core/) is available for free on the Internet and is fully observable by anyone with the ability to read the [C++ reference implementation](https://github.com/bitcoin/bitcoin). When you run the software and plug in to the Bitcoin Network, you aren’t some gullible financial system participant blindly trusting the authority of a centralized financial coordinator to maintain your purchasing power. You are instead a ruthless verifier, scrutinizing the validity of all transactions in agonizing detail. When you run the Bitcoin software you instantly become a member of the best auditing firm in the world. When you run the Bitcoin software you join all others who do the same, working to build and preserve a historical record of transactions. It is from such a record which we can build an accounting/monetary system which transcends jurisdiction and is, as a result, not possibly beholden to the interest of any one individual, corporation, or even nation. Attempts to create money out of nothing are not recognized. Attempts to move money without proper authorization. Not recognized. This is network enforced digital scarcity. This is, for the first time in modern history, a separation of money and State.
 
