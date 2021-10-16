@@ -102,7 +102,7 @@ IMPORTANT: The unique properties do NOT come from the ledger alone, but from the
 - Bitcoin is NOT PayPal
 - Bitcoin is NOT a company
 - Bitcoin is NOT ...
-- Central Bank Digital Currencies (CBDCs) are NOT interesting (for anyone except for governments). They are tools for mass surveillance and control. Your dollar is already digital.
+- Central Bank Digital Currencies (CBDCs) are NOT interesting (for anyone except for governments). They are tools for mass surveillance and control. Your dollar is already digital. Programmable money will either set you free or it will enslave you. When your money can be programmed with an expiration date, region locked, used only at approved retailers if you are up to date on your injections, equity/priviledge trainings, be turned off for political wrong think or unapproved energy usage (all of these inputs to your social credit score), you are a slave. Contrast this with what Bitcoin is and you will realize that a CBDC is an apparatus for enslavement. The choice made here is of paramount importance.
 
 That the above statements are true should be obvious if one grasps the implications of a ledger owned by no-one.
 Bitcoin is rule by rules, not by rulers.
