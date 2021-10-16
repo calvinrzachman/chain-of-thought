@@ -134,7 +134,7 @@ A blockchain is a …
 
 - Hash Functions (Magic One Way Function: input --> output, but NOT output --> input. Ex: y=2\*x is NOT one way. 2*(2) = 4 and 4/(2) = 2)
 - Hashed Messages
-- Chain of Hashed Messages - Each block/message contains a reference to all messages which came before it. Concretely, this reference is the output of taking the message, representing it as a number, pumping this number through a "hash function" and observing the output number. This imposes an ordering to the messages. Message This imposes an ordering to the messages as Message A must exist before Message B if Message B refers to the Message A. Rather, message A must exist before message B if message B contains a reference to the hash of message A. The hash of message A is a value incalculable without knowledge of message A.
+- Chain of Hashed Messages - Each block/message contains a reference to all messages which came before it. Concretely, this reference is the output of taking the message, representing it as a number, pumping this number through a "hash function" and observing the output number. This imposes an ordering to the messages as Message A must exist before Message B if Message B refers to the Message A. Rather, message A must exist before message B if message B contains a reference to the hash of message A. The hash of message A is a value incalculable without knowledge of message A.
 ```
 m1 ... mN ------------   mN+1 ------------       ...
          | - list data       | - more list data
@@ -143,33 +143,35 @@ m1 ... mN ------------   mN+1 ------------       ...
 ```
 A blockchain is highly specified way of writing down or storing information in which, each time you go to update what you've written, you include a reference to all the messages which came before. Concretely, this reference is constructed by taking the the information you have already written (historical record), representing it as a number, pumping this number through a "hash function" and observing the output number. Take history, represent it as a number (encoding/serialization), pump it through a one-way function (critical - what does the one-way function do? See [Bitcoin is Time](https://dergigi.com/2021/01/14/bitcoin-is-time/)), and include this in your message to be added. 
 
-A blockchain is a self referencing list.
-A blockchain is, on its own, nothing worth getting excited about. An individual storing data in blockchain form is not special. Such an individual could show you his data cleanly written out in blockchain form. All he could prove to you was that some messages/data entries existed before other entries. He could NOT prove the wall clock time when they were created as you would have to trust that he entered the correct timestamp. All he can prove is relative existence, namely that message A existed before message B. 
+A blockchain is a self referencing list. A blockchain is, on its own, nothing worth getting excited about. An individual storing data in blockchain form is not special. Such an individual could show you his data cleanly written out in blockchain form. All he could prove to you was that some messages/data entries existed before other entries. He could NOT prove the wall clock time when they were created as you would have to trust that he entered the correct timestamp. All he can prove is relative existence, namely that message A existed before message B. Interestingly, Satoshi never used the term blockchain. That this structure is helful in establishing a temporal ordering is why Satsohi referred to it as a ***timechain***, and so too shall we. 
 
-You could write down your grocery lists in blockchain form. You could prove that some of your your grocery list existed before other parts of your grocery list. But that is all you could prove. A blockchain simply imposes an ordering to the messages in your list.
+You could write down your grocery lists in timechain form. You could prove that some of your your grocery list existed before other parts of your grocery list. But that is all you could prove. A timechain simply imposes an ordering to the messages in your list.
 
-An individual storing data in blockchain form is not special. The great power of such a storage mechanism emerges when independently verified copies of the transaction list in blockchain form are maintained by a collection of people distributed geographically - ala by a network of computers - who are able to come to agreement on one common vision of history.
+An individual storing data in timechain form is not special. The great power of such a storage mechanism emerges when independently verified copies of the transaction list in timechain form are maintained by a collection of people distributed geographically - ala by a network of computers - who are able to come to agreement on one common vision of history.
 
 QUESTION: What great power is this? Bitcoin's properties of censorship resistance and *absolute* digital scarcity of course!
 
-### Bitcoin's Blockchain (Building Lists)
+### Bitcoin's Timechain (Building Lists)
 
 [More on the Bitcoin Network and Decentralized Record Keeping]
 
 The list can be copied, altered and shared by any individual. How can honest users cut through the noise and coalesce around one common vision of history?
 
-A fundamental question:
+A fundamental question said three different ways:
 - How do participants in the network agree on the state of the list?
 - How do participants in the network arrive at the same view on the state of the list?
-- How do they come to consensus on the state of the list?
+- How do participants in the network come to consensus on the state of the list?
 
 With Bitcoin, Satoshi achieves distributed consensus. That is, agreement on state amongst a set of distributed and independent entities.
 
+Bitcoin is not merely data replication from a single trusted source (akin to data backup). It is independent verification that newly created data adheres to a set of agreed upon rules (law). Information is shared. Information verification is independent. (Don't Trust. Verify.).
 
 Blockchain does NOT fix everything, but Bitcoin might :)
 
 
 ## Finding Order in Chaos - Proof of Work (Extra Credit)
+
+In Bitcoin you have to assume everything you have received from a peer might be a lie. How the hell do you make sense of anything under such an assumption? You have to have one thing that cannot be faked. No skill, no progress. Random.
 
 At the risk of getting a bit technical. Proof of Work is THE key. [A failure to understand Proof of Work is a failure to understand Bitcoin](https://twitter.com/dergigi/status/1392826448017346561)
 
@@ -195,13 +197,13 @@ What does it mean for a system state to be "correct"? What is to make one state 
 This requirement enables consensus. Given two competing views of the system state, a network participant can always select the system state endorsed by greater work. Dishonest participants are unable to present valid alternative states as they cannot forge energy (Szabo's "unforgeable costliness"). Perhaps ***Proof of Energy Expenditure*** would better describe the mechanism here. So long as one party does not control a majority of the energy in the system, they cannot convince network participants to accept any system state other than the system state constructed by the most energetic cohort of network participants. They cannot forge Bitcoin. They cannot ["double spend"](https://en.wikipedia.org/wiki/Double-spending) Bitcoin. Proof of Work turns the dishonest network views/false system states of would be usurpers into harmless individual delusions. To dishonest Bitcoin Network participants: For full credit (state acceptance), prove your work!
 
 
-Bitcoin is NOT a trusted network. This means that it. Participants are pseudonymous and can come and go as they please. This means the protocol must be designed in a way which does not assume altruism/good faith. There will be dishonest who attempt to cheat, mislead, or attack honest network participants.
-Network participants can come and go as they please, 
+Bitcoin is NOT a trusted network. Participants are pseudonymous and can come and go as they please. This means the protocol must be designed in a way which does not assume altruism/good faith. If the system is to serve as the defender of property rights for billions of people and a large fraction of global wealth, there will be dishonest entities who attempt to cheat, mislead, or attack honest network participants.
+
 In Satoshi's own words: "nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone."
 
 While Proof of Work was invented in the 90's, Satoshi's application to distributed consensus is novel and this is sometimes referred to as Nakamoto Consensus, in his honor. 
 
-When combined with a proof of work, our blockchain list levels up. It becomes resistant/immune to forgery and ex-post facto data corruption. (I think it is actually the blockchain in combination with a proof of work network which achieves this).
+When combined with a proof of work, our timechain list levels up. It becomes resistant/immune to forgery and ex-post facto data corruption. (I think it is actually the timechainchain in combination with a proof of work network which achieves this).
 
 
 ## Building Lists
