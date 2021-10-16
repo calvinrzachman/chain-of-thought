@@ -222,17 +222,41 @@ Bitcoin is a software protocol for cooperatively building lists/ledgers in a low
 
 - KEY IDEA: Censorship arises out of trust placed in the hands of a central authority.
 
-Hyper-cognizance of where you place trust.
-If the ledger is owned by any one individual or entity, then it can be changed by that individual or entity. Period. The only solution is to decentralize the record keeping (what does that even mean?).
+What makes Bitcoin censorship resistant? Bitcoin is censorship resistant due to the absence of trusted 3rd parties or single points of failure; in a word ~ decentralization. Censorship arises out of trust placed in the hands of a central authority. If you have to ask permission, you can be censored. How do you build a system which does not require permission? You must build a system with no center. No privilege (hate that word). Open. Anyone can join. To be uncensorable your system must be permission-less.
 
-Decentralization of record keeping is achieved through constructing the system of record keeping to be as lightweight and simple as possible, by constraining the amount of records to be kept, by providing a small payment to the record keepers, and by building a system in which anyone can become a record keeper without asking permission. The first item above, the constraining of information, is quite clearly at odds with expanding transactional throughput. The more information you ask participants to process, the fewer will be able to complete the task at hand. This is centralization of processing and validation in the hands of a smaller and smaller few. To do this is to destroy digital scarcity. To do this is to create yet another system of Centrally "enforced" digital scarcity. Centrally "enforced" digital scarcity is easily infringed. Network Enforced Digital Scarcity.
+Censorship is a form of counter-party risk that arises out of trust.
 
-Decentralized record keeping? That’s it? What gives? Sometimes what sells and what explains are two different things. You will learn to love decentralized record keeping.
+How does Bitcoin build a system without a center? A system requires order. A permission less system requires decentralized emergent order (order through chaos). Bottom up. From the edge not the center.
 
+Let’s say you are Satoshi and you want to build something that cannot be controlled by a single man, cannot be controlled by any corporation or, taking that to the limit, cannot be controlled by any government. You want to build a system that cannot be controlled, but still a system with controls. You cannot build anything that requires someone ask for permission. You must build a system without a center.
+
+In this ethos: a Bitcoin node maintains connections to multiple network peers. This provides the user with multiple pathways to spread a message through the network. It makes connection to the network “highly available” as there is no single point of failure. This is necessary but not sufficient. Simply having multiple pathways to send my Bank a message does not make the legacy banking system censorship resistant. Even if my message arrives at the bank, they can still say “no”. The bank is still a single point of failure, a trusted message-processing entity with whom we must cooperate (comply with) in order to use the system. We need multiple message receivers and multiple list updaters. Bitcoin has just this. Your transaction propagates through the network, ultimately finding its way into the memory pool of Bitcoin miners. The Bitcoin miners compete in a race where the winner is discovered at random (a lottery). It is this winner who packages a collection of yet to be processed transactions, endorses them with the energy of the **entire** network, and distributes them for peer validation and inclusion in the time chain. SIDE: - A single entity is able to endorse with the energy of the entire network? (This is damn near magic - I believe it comes from the selection of a universal - irrespective of location - physical law). The blockchain can be viewed as an append-only ledger with “random write” - There certainly may be miners who wish to prevent you from transacting. If mining is “sufficiently distributed” they will not be able to do so for any appreciable length of time. Provided you are willing to purchase the scarce resource that is the global attention (storage and processing resources) of the Bitcoin Network, your transaction will eventually be included by an honest miner. Here honest miner means a miner who selects transactions for inclusion in the timechain purely based off of self interested profit motive rather than by any criteria political or ideological; that is, by selecting the transactions which pay the greatest fee to the miner.
+
+Additional complications and incentives:
+- There is no strict protocol level tie between Bitcoin and real world identity. Can’t censor in a targeted fashion if you don’t know who is using the system.
+- They will forego the network fee that would otherwise be collected. 
+
+If all of Bitcoin mining is ran by one company, we are back to square one. Thankfully Bitcoin’s Proof of Work is working for us here to help ensure that this doesn’t not happen.
+
+Why are there many Bitcoin miners? 
+- They freely choose to participate in pursuit of profit
+- They are able to join the system without asking permission
+
+Why are there many Bitcoin network peers?
+- They freely choose to participate in a system that they value (privacy, self-sovereignty, etc.)
+- They are able to join the system without asking permission
+
+With Bitcoin there is no single point of failure in message propagation or message processing and validation. Bitcoin eliminates single points of failure all the way down the stack.
+
+If the ledger is owned by any one individual or entity, then it can be changed by that individual or entity. Period. The only solution is to decentralize both record keeping and record processing. Decentralization of record keeping and processing is achieved through constructing the system of record keeping to be as lightweight and simple as possible, by constraining the amount of records to be kept, by providing a small payment to the record processors, and by building a system in which anyone can become a record keeper or processor without asking permission (1). 
+
+SIDE: The first item above, the constraining of information, is quite clearly at odds with expanding transactional throughput. The more information you ask participants to process, the fewer will be able to complete the task at hand. This is centralization of processing and validation in the hands of a smaller and smaller few. To do this is to destroy digital scarcity. To do this is to create yet another system of centrally "enforced" digital scarcity. Centrally "enforced" digital scarcity is easily infringed. Network Enforced Digital Scarcity is not.
 
 A system in which anyone can join without asking permission implies that there is NO authority with whom to seek permission. There is no single entity capable of controlling the system. There is no authorized set of users. ANYONE (or any programmable thing) can use Bitcoin. Bitcoin does not recognize race, gender, faith, political affiliation, or socio-economic status. It recognizes public/private key cryptography, digital signatures, and energy (proof of work).  Bitcoin eliminates sole sources of truth by design, instead achieving decentralized emergent authority through Proof of Work.
 
 With no central coordinator or maintainer how can there be order? Decentralized emergent authority/order.
+
+Decentralized record keeping? That’s it? What gives? Sometimes what sells and what explains are two different things. You will learn to love decentralized record keeping.
 
 
 ## Creating Digital Scarcity
