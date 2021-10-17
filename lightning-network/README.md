@@ -17,7 +17,7 @@ THOUGHT: It is very hard to gate keep or rent seek on Lightning. When you can la
 
 - Think about it from a perspective of global vs. local consensus
 
-NOTE: The angle presented in this writing is decidecly Austrian. I generally am susceptible to arguments from this school of thought. Their explanations seem to give careful consideration to incentives and second order effects and, as a result, sound highly plausible, but I have not had enough time to divert away from Bitcoin to fully fleshing out these economic/historical ideas.
+NOTE: The angle presented in this writing is decidedly Austrian. I generally am susceptible to arguments from this school of thought. Their explanations seem to give careful consideration to incentives and second order effects and, as a result, sound highly plausible, but I have not had enough time to divert away from Bitcoin to fully fleshing out these economic/historical ideas.
 
 
 A decentralized auditable ledger brings security and finality to our system state, but all the information replication and energy that this requires makes the system difficult to scale. Network enforced digital scarcity comes at a price. 
