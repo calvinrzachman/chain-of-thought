@@ -7,7 +7,6 @@ What makes it different from scaling of old?
 THOUGHT: It is very hard to gate keep or rent seek on Lightning. When you can lay new payment infrastructure (Lightning payment channels) for the cost of a TCP connection and one global consensus (on chain channel funding transaction), any gate keeper can easily be made irrelevant by the construction of new train tracks to bypass him in a matter of seconds. Cool.
 
 - Write a short primer piece with definitions for payment channels, payment channel networks, and possibly Bitcoin UTXO, and multi-signature UTXO (an output which requires multiple signatures in order to be spent). 
-- 
 - Brief outline on how centralization and money substitutes helped human civilization scale
     ```
     [ Reread Social Scalability by Nick Szabo and Money Warehouses (Chapter 12 of What Has Government Done to Our Money - Rothbard ]
