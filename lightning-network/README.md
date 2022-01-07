@@ -1,6 +1,20 @@
 # Lightning Network
 
-How does the Lightning Network scale Bitcoin? 
+## Lightning Network Limitations
+
+I include first a discussion of the limitations of the Lightning Network not to diminish or denigrate the protocol in any way, but so that I may keep closely in mind the areas which may be improved. In the interest of building a highly robust protocol, one must understand the Lightning Protocol's shortcomings and work to resolve them.
+
+- LN storage requirements scale linearly in the number of state updates. Nodes must keep track of every channel state they have ever negotiated. This requirement comes from the fact that LN uses economic incentive to achieve protocol/contract adherence whereby any party which broadcasts an outdated state surrenders their claim to all funds in the payment channel. Eltoo/ANYPREVOUT allows for constant sized storage as nodes will only need to store the latest channel state.
+- A Hash Time Locked Contract, or HTLC, is a conditional payment contract where the payer releases funds upon the payee’s presentation of a hash preimage (hash lock) or the payer recovers his funds after a timeout (time lock). HTLC’s are the sub-atomic unit of a Lightning Network layer 2 payment. They are indivisible link level payments which can be chained together to build atomic chains of payments. The atomic chain of link level payments can be viewed as a single logical payment between the endpoints of the payment path. Such a chained payment as "if and only if" semantics - either every payment in the path succeeds or all payments fail. Currently all HTLCs in a payment path are locked to the same hash (hash lock), and thus are correlate-able. This negatively impacts payment privacy as a node operator controlling multiple nodes along a payment path would be able to recognize that 2 HTLCs are part of the same payment. PTLCs allow for payment decorrelation.
+- Because all HTLC’s along a payment path share the same hash lock, LN “proof of payment” is not really a proof of payment. All nodes in the payment path learn the payment/hash preimage during HTLC settlement. PTLCs allow for true proof of payment.
+- Privacy can be leaked by certain parameters (CLTV delta, time to htlc_settle)
+- Mistakes are punished severely. Under what circumstances would the node software broadcast unilateral close?
+    - Non-responsive peer
+    - Malicious attempt to breach channel contract
+    - Restore node from stale/outdated data?
+    - Eltoo/ANYPREVOUT - Christian Decker often refers to this as “death by a thousand cuts as opposed to death by decapitation”.
+
+# How does the Lightning Network scale Bitcoin? 
 What commonalities does the scaling approach share with traditional scaling methods?
 What makes it different from scaling of old?
 
