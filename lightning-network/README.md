@@ -57,7 +57,7 @@ The debate is as to whether your money should be absolutely hard or contain a sm
 
 Bitcoin is already near infinitely divisible, near infinitely portable, and fully verifiable. So what gives? Why do we need “more layers” to realize Satoshi’s vision (his real vision - not the shitcoin)? The very thing which gives Bitcoin the properties here outlined, is what prevents it from being used as an every day medium of exchange. 
 
-THOUGHT: If a medium which is otherwise most suitable as a store of value cannot move frequently enough to accomodate the frequency of man's exchange, then he will divise a way to abstract that medium and exchange claims against it. These "promises to pay" weigh nothing at all and will therefore be scalable to whichever frequency man requires. As it turns out, promises are NOT infinitely scalable. Credit carries risk and requires trust in indiduals, institutions, reputation systems, etc. 
+THOUGHT: If a medium which is otherwise most suitable as a store of value cannot move frequently enough to accomodate the frequency of man's exchange, then he will divise a way to abstract that medium and exchange claims against it. These "promises to pay" weigh nothing at all and will therefore be scalable to whichever frequency man requires. As it turns out, promises are NOT infinitely scalable. Credit carries risk and requires trust in individuals, institutions, reputation systems, etc. 
 
 QUESTION: Why can’t you “move” Bitcoin in small amounts with high frequency? Is this not a short coming in portability?
 ANSWER: A decentralized auditable ledger brings security and finality to our system state, but all the information replication and energy that this requires makes the system difficult to scale. Network enforced digital scarcity comes at a price. 
@@ -86,7 +86,7 @@ The multi-signature ensures that the payment channel construction is *fully coll
 - The signed commitment transaction is NOT an IOU
 - The signed commitment transaction is NOT an IOU or receipt with a claim on Bitcoin
 
-The multi-signature underlying a payment channel gives the signed commitment transaction credibility. When you receive a signed commitment transaction, you know that your counter-party has the equity underlying your negotiations because that equity is under your joint control. The commitment transaction is a contract declaring that the specified equity is placed under your sole control and will be regonized as such by the Bitcoin Network.
+The multi-signature underlying a payment channel gives the signed commitment transaction credibility. When you receive a signed commitment transaction, you know that your counter-party has the equity underlying your negotiations because that equity is under your joint control. The commitment transaction is a contract declaring that the specified equity is placed under your sole control and will be recognized as such by the Bitcoin Network.
 
 Another way to think about it: Two channel participants are co-authors jointly working on a draft of a Bitcoin transaction. They continually revise the transaction in private until they feel compelled to publish, whether due to a breach of channel contract or desire to use capital elsewhere. With the publication of their final draft, they reflect the aggregate of all negotiations and once again ask for the attention of the world as a whole to bear witness.
 
