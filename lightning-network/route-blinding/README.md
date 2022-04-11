@@ -95,7 +95,7 @@ A shared secret is generated between 2 public keys, (PK_A, PK_B, ss_AB). These p
 
 ### Normal LN Onion Routing:
 ```console
-(EPK_S, NPK_I, ss_SN)
+(EPK_S, NPK_I, ss_SN) // This is used to (en/de)crypt the onion.
 
 EPK_S: Sender chosen ephemeral public key. Private Key Owner: Sender
 NPK_I:  Node ID Public Key. Known publicly via LN gossip. Private Key Owner: Node
@@ -104,8 +104,8 @@ ss_SN: Shared secret between sender and processing node.
 
 ### Route Blinding:
 ```console
-(EPK_S, BNPK_I, ss_SN)    // shared secret between node and sender without sender knowing the true persistent node ID!
-(EPK_R, NPK_I, ss_RN)     // shared secret between node and recipient used to decrypt special route blinding TLV payload. This is NOT used to decrypt the onion!
+(EPK_S, BNPK_I, ss_SN)    // shared secret between node and sender without sender knowing the true persistent node ID! This is used to (en/de)crypt the onion! The routing node MUST calculate "its" blinded ID key, BNPK_I, in order to decrypt! 
+(EPK_R, NPK_I, ss_RN)     // shared secret between node and recipient used to decrypt special route blinding TLV payload. This is also used by routing nodes to derive their blinded node ID, BNPK_I, which is needed to decrypt the onion!
 
 EPK_S: sender chosen ephemeral public key. Private Key Owner: Sender
 EPK_R: recipient chosen ephemeral public key. NOT known by sender. Private Key Owner: Recipient
