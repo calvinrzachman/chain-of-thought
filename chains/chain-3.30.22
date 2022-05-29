@@ -1,0 +1,24 @@
+There is this notion that a currency must be “backed” by something - that it
+cannot be valued on its own merit. I am not sure if this is true (I think it
+very much depends on what society is using as money. If using a debt/fiat based
+money with marginal production cost of 0 then a “backing” is likely necessary
+to constrain production and lend credibility to the scarcity of the medium.),
+but assume for a second that framework is correct. Consider potential backings
+for a currency: Gold backed currency. Oil backed currency. Basket of commodity
+backed currency. These are all attempts to back a currency with a “stock” of
+static and existing material. The problem: How do you prove a stock? 
+
+Proof of stock for physical items is NOT possible without trust. Who will hold
+the the stock and where? Do they still have as much stock as they say they do?
+You can attempt to conduct periodic audits, but those too require trust in the
+auditor. Proving a stock is not publicly verifiable. There will always be trust
+involved. You cannot trustlessly back with a physical stock.
+
+Bitcoin backs a digital commodity with a flow. Bitcoin proves a flow. 
+Proof of flow is possible in a way that is trust-less/publicly verifiable
+(see: probabilistic nature of Proof of Work). The flow is energy channeled/consumed.
+
+Interestingly, proof of stock for digital items may very well be possible. 
+
+So we have this distinction: Backed by stock (potential energy) vs backed by
+flow (kinetic energy).
