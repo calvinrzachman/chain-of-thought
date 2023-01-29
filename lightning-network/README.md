@@ -12,7 +12,9 @@ I include first a discussion of the limitations of the Lightning Network not to 
     - Non-responsive peer
     - Malicious attempt to breach channel contract
     - Restore node from stale/outdated data?
-    - Eltoo/ANYPREVOUT - Christian Decker often refers to this as “death by a thousand cuts as opposed to death by decapitation”.
+    - Eltoo/ANYPREVOUT - Christian Decker refers to this as “death by a thousand cuts as opposed to death by decapitation”.
+
+**The Lightning Network’s current channel construction (Poon-Dryja)  uses asymmetric channel state with delayed local payment so as to open up the door for a penalty mechanism; the economic incentive by which the Lightning Network invalidates old channel state.  Each commitment transaction incorporates a delay in local payment to give the channel counterpart an opportunity to contest the transaction in case a previously invalidated state is broadcast. Newer channel constructions (see Generalized Bitcoin Channels paper) do things differently, relying on additional transaction stages and adaptor signatures to assign blame.
 
 # How does the Lightning Network scale Bitcoin? 
 What commonalities does the scaling approach share with traditional scaling methods?
